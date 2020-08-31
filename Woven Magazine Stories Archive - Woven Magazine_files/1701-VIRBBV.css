@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Dala Floda Web';
+  src: url('DalaFloda-Medium-Web.eot');
+  src: url('DalaFloda-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url('DalaFloda-Medium-Web.woff2') format('woff2'),
+       url('DalaFloda-Medium-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
