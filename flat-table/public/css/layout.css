@@ -28,7 +28,8 @@ a, a:hover {
     height: 100vh;
     width: 100%;
     left: 0;
-    top: 0;
+    top: 0; 
+    transition: all 1.5s .25s;
 }
 
 .intro .intro_slide {
@@ -56,14 +57,14 @@ a, a:hover {
     text-align: left;
     width: 40px;
     position: absolute;
-    left: 40px;
+    left: 50px;
 }
 .intro .intro_slide .intro_slide_img .next_btn {
     top: calc(50% - 50px);
     text-align: right;
     width: 40px;
     position: absolute;
-    right: 40px;
+    right: 50px;
 }
 .intro .intro_slide .intro_slide_img .down_btn {
     position: relative;
@@ -75,6 +76,11 @@ a, a:hover {
 .intro .intro_slide .intro_slide_img .prev_btn img,
 .intro .intro_slide .intro_slide_img .next_btn img {
     height: 40px;
+    transition: all 300ms;
+}
+.intro .intro_slide .intro_slide_img .prev_btn img:hover,
+.intro .intro_slide .intro_slide_img .next_btn img:hover {
+    transform: scale(1.1);
 }
 .intro .intro_slide .intro_slide_img .down_btn img {
     width: 80px;
