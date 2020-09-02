@@ -16,7 +16,7 @@
     <body>
     <div class="flex-center position-ref full-height">
             <div class="header">
-                <div class="title m-b-md">
+                <div class="title header-margin">
                     <div class="box actions">
                         <a href="#" class="menu x">
                             <span class="line top"></span>
