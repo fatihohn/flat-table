@@ -31,7 +31,8 @@ a, a:hover {
 .intro .intro_slide {
     height: 100%;
     width: 100%;
-    padding: 50px 26px 26px;
+    padding: 0 26px 26px;
+    margin-top: 40px;
     transition: opacity 1.5s .25s, -webkit-transform 1.5s .25s;
     transition: opacity 1.5s .25s, transform 1.5s .25s;
 }
