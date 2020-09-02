@@ -69,7 +69,7 @@ a, a:hover {
 .intro .intro_slide .intro_slide_img .down_btn {
     position: relative;
     margin: 0 auto;
-    top: calc(100% - 50px);
+    top: calc(100% - 80px);
     text-align: center;
     
 }
