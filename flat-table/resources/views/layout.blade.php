@@ -29,11 +29,12 @@
                     </a>
                 </div>
             </div>
+            @yield ('intro')
         </div>
     <!-- <div class="flex-center position-ref full-height">
     </div> -->
 
-        @yield ('front_content')
+        @yield ('content')
 
             
 
