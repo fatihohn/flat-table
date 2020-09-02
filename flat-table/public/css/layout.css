@@ -30,12 +30,17 @@ a, a:hover {
 
 .intro .intro_slide {
     height: 100%;
+    width: 100%;
     padding: 50px 26px 26px;
     transition: opacity 1.5s .25s, -webkit-transform 1.5s .25s;
     transition: opacity 1.5s .25s, transform 1.5s .25s;
 }
 
-
+.intro .intro_slide .intro_slide_img {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg');
+}
 
 .full-height {
     height: 100vh;
@@ -59,7 +64,8 @@ a, a:hover {
 
 
 .links > a {
-    color: #636b6f;
+    /* color: #636b6f; */
+    color: #777;
     padding: 0 25px;
     /* font-size: 13px;
     font-weight: 600; */
@@ -69,10 +75,15 @@ a, a:hover {
 }
 
 .title {
-    /* font-size: 84px; */
     font-size: 1.8rem;
     font-family: '경기천년바탕';
     color: #777;
+}
+
+.title_super {
+    font-size: 3.8rem;
+    position: relative;
+    top: 30px;
 }
 
 .title>.home-btn {
