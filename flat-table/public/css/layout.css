@@ -75,12 +75,13 @@ a, a:hover {
 }
 .intro .intro_slide .intro_slide_img .prev_btn img,
 .intro .intro_slide .intro_slide_img .next_btn img {
-    height: 40px;
+    height: 50px;
+    transform: scale(0.9);
     transition: all 300ms;
 }
 .intro .intro_slide .intro_slide_img .prev_btn img:hover,
 .intro .intro_slide .intro_slide_img .next_btn img:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 .intro .intro_slide .intro_slide_img .down_btn img {
     width: 80px;
