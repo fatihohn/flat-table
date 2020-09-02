@@ -17,7 +17,9 @@
     <div class="flex-center position-ref full-height">
             <div class="header">
                 <div class="title m-b-md">
-                    평상도록
+                    <a href="/">
+                        평상도록
+                    </a>
                 </div>
             </div>
 
