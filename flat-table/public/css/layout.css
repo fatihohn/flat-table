@@ -3,14 +3,12 @@ html, body {
     color: #636b6f;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    /* height: 100vh; */
     height: 100%;
     margin: 0;
 }
 a, a:hover {
     text-decoration: none;
     color: #777;
-    /* transition: color .4s,background .4s,border-color .4s; */
 }
 .header {
     text-align: center;
@@ -25,8 +23,7 @@ a, a:hover {
 }
 
 .intro {
-    z-index: 1;
-    /* height: calc(100vh - 76px); */
+    z-index: 0;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -35,11 +32,8 @@ a, a:hover {
 }
 
 .intro .intro_slide {
-    /* height: 100%; */
     height: calc(100% - 76px);
-    /* width: 100%; */
     padding: 50px 26px 26px;
-    /* margin-top: 40px; */
     transition: opacity 1.5s .25s, -webkit-transform 1.5s .25s;
     transition: opacity 1.5s .25s, transform 1.5s .25s;
 }
@@ -47,19 +41,36 @@ a, a:hover {
 .intro .intro_slide .intro_slide_img {
     height: 100%;
     width: 100%;
-    /* max-height: 700px; */
-    /* max-width: 700px; */
-    /* margin: 0 auto; */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     background: center center / cover no-repeat;
     background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg');
 }
 
-.intro .intro_slide .intro_slide_img .down_btn {
+.intro .intro_slide .intro_slide_btn {
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow(2px 4px 6px black);
     position: relative;
     margin: 0 auto;
+}
+
+
+.intro .intro_slide .intro_slide_img .prev_btn {
+    top: calc(50% - 50px);
+    text-align: left;
+}
+.intro .intro_slide .intro_slide_img .next_btn {
+    top: calc(50% - 50px);
+    text-align: right;
+}
+.intro .intro_slide .intro_slide_img .down_btn {
     top: calc(100% - 50px);
+    text-align: center;
+}
+.intro .intro_slide .intro_slide_img .prev_btn img,
+.intro .intro_slide .intro_slide_img .next_btn img {
+    height: 50px;
+}
+.intro .intro_slide .intro_slide_img .down_btn img {
+    width: 80px;
 }
 
 .full-height {
@@ -84,11 +95,8 @@ a, a:hover {
 
 
 .links > a {
-    /* color: #636b6f; */
     color: #777;
     padding: 0 25px;
-    /* font-size: 13px;
-    font-weight: 600; */
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -101,9 +109,6 @@ a, a:hover {
 }
 
 .title_super {
-    /* font-size: 3.8rem;
-    position: relative;
-    top: 30px; */
     padding-top: 5px;
 }
 
@@ -112,11 +117,9 @@ a, a:hover {
 }
 
 .header-margin {
-    /* margin-bottom: 30px; */
     width: 90%;
     height: 50px;
     margin: 0 auto;
-    /* margin-top: 10px; */
 }
 
 .actions {
