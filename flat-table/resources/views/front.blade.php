@@ -1,7 +1,8 @@
 @extends ('layout')
 
 @section ('front_content')
-<div class="flex-center position-ref full-height">
+
+    <div class="flex-center position-ref full-height intro">
     </div>
 
 @endsection
