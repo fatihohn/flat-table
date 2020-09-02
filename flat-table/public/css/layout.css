@@ -6,7 +6,10 @@ html, body {
     height: 100vh;
     margin: 0;
 }
-
+a {
+    text-decoration: none;
+    color: #777;
+}
 .full-height {
     height: 100vh;
 }
