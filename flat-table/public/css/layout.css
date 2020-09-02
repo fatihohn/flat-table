@@ -25,7 +25,7 @@ a, a:hover {
 
 .intro {
     z-index: 1;
-    height: 100%;
+    height: calc(100vh - 90px);
 }
 
 .intro .intro_slide {
@@ -39,6 +39,9 @@ a, a:hover {
 .intro .intro_slide .intro_slide_img {
     height: 100%;
     width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background: center center / cover no-repeat;
     background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg');
 }
 
