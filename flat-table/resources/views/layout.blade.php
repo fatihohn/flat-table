@@ -14,27 +14,30 @@
         @yield ('head')
     </head>
     <body>
-    <div class="flex-center position-ref full-height">
-            <div class="header">
-                <div class="title header-margin">
-                    <div class="box actions">
-                        <a href="#" class="menu x">
-                            <span class="line top"></span>
-                            <span class="line middle"></span>
-                            <span class="line bottom"></span>
-                        </a>
-                    </div>
-                    <div class="box links home-btn">
-                        <a href="/">
-                            평상도록
-                        </a>
-                    </div>
+        <div class="header">
+            <div class="title header-margin">
+                <div class="box actions">
+                    <a href="#" class="menu x">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </a>
+                </div>
+                <div class="box links home-btn">
+                    <a href="/">
+                        평상도록
+                    </a>
                 </div>
             </div>
+        </div>
+    <!-- <div class="flex-center position-ref full-height">
+    </div> -->
 
-        @yield ('content')
+        @yield ('front_content')
 
             
-    </div>
+
+
+
     </body>
 </html>
