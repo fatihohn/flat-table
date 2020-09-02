@@ -70,13 +70,18 @@ a, a:hover {
     margin: 0 auto;
     top: calc(100% - 50px);
     text-align: center;
+    transition: all 300ms;
 }
 .intro .intro_slide .intro_slide_img .prev_btn img,
 .intro .intro_slide .intro_slide_img .next_btn img {
-    height: 50px;
+    height: 40px;
 }
 .intro .intro_slide .intro_slide_img .down_btn img {
     width: 80px;
+}
+.intro .intro_slide .intro_slide_img .down_btn img:hover {
+    position: relative;
+    top: 10px;
 }
 
 .full-height {
