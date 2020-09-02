@@ -5,7 +5,7 @@
 
 <div class="intro">
     <div class="intro_slide">
-        <div class="intro_slide_img">
+        <div class="intro_slide_img"><!--배경 이미지 넣기-->
             <div class="intro_slide_btn prev_btn">
                 <a href="#">
                     <img src="/img/prev_btn.png" alt="prev_btn">
@@ -24,7 +24,7 @@
         </div>
     </div>
 </div>
-    <!--  -->
+    <!-- 평상 리스트 -->
 
 @endsection
 
