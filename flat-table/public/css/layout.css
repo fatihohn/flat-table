@@ -6,9 +6,10 @@ html, body {
     height: 100vh;
     margin: 0;
 }
-a {
+a, a:hover {
     text-decoration: none;
     color: #777;
+    transition: color .4s,background .4s,border-color .4s;
 }
 .full-height {
     height: 100vh;
@@ -60,4 +61,19 @@ a {
 .m-b-md {
     /* margin-bottom: 30px; */
     margin-top: 10px;
+}
+.actions .menu {
+    text-align: center;
+    width: 24px;
+    vertical-align: 0;
+}
+
+.actions .x .line {
+    background: #1a1a1a;
+    display: block;
+    height: 3px;
+    margin: 4px 0;
+    position: relative;
+    transition: all .5s;
+    width: 100%;
 }

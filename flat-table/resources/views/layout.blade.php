@@ -17,9 +17,18 @@
     <div class="flex-center position-ref full-height">
             <div class="header">
                 <div class="title m-b-md">
-                    <a href="/">
-                        평상도록
-                    </a>
+                    <div class="box actions">
+                        <a href="#" class="menu x">
+                            <span class="line top"></span>
+                            <span class="line middle"></span>
+                            <span class="line bottom"></span>
+                        </a>
+                    </div>
+                    <div class="box links">
+                        <a href="/">
+                            평상도록
+                        </a>
+                    </div>
                 </div>
             </div>
 
