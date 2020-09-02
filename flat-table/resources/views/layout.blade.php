@@ -24,7 +24,7 @@
                             <span class="line bottom"></span>
                         </a>
                     </div>
-                    <div class="box links">
+                    <div class="box links home-btn">
                         <a href="/">
                             평상도록
                         </a>

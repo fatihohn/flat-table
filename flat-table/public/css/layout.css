@@ -58,6 +58,10 @@ a, a:hover {
     /* color: #777; */
 }
 
+.title>.home-btn {
+    padding-top: 10px;
+}
+
 .header-margin {
     /* margin-bottom: 30px; */
     width: 90%;
@@ -76,7 +80,7 @@ a, a:hover {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     /* justify-content: flex-end; */
-    position: relative;
+    position: absolute;
     height: 50px;
     z-index: 1;
 }
