@@ -13,7 +13,7 @@
 
 @section ('content')
 
-<div class="intro flex-center position-ref">
+<div class="intro">
     <div class="intro_slide">
         <div class="intro_slide_img">
             <div class="intro_slide_btn down_btn">
