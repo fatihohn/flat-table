@@ -5,7 +5,7 @@
 
     </div>
     <script>
-        document.querySelector(".header").setAttribute("class", "header fulll-height");
+        document.querySelector(".header").setAttribute("class", "header full-height");
     </script>
 @endsection
 
