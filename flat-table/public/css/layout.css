@@ -27,12 +27,21 @@ html, body {
     top: 18px;
 }
 
-.content {
+.header {
     text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    font-size: 84px;
+    /* font-size: 84px; */
+    font-size: 1.8rem;
+    font-family: '경기천년바탕';
+    color: #777;
 }
 
 .links > a {
@@ -46,5 +55,6 @@ html, body {
 }
 
 .m-b-md {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
 }
