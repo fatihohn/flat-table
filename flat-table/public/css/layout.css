@@ -20,12 +20,22 @@ a, a:hover {
     background: #fff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
     z-index: 500;
+    transition: all 300ms;
 }
 
 .intro {
     z-index: 1;
 
 }
+
+.intro .intro_slide {
+    height: 100%;
+    padding: 50px 26px 26px;
+    transition: opacity 1.5s .25s, -webkit-transform 1.5s .25s;
+    transition: opacity 1.5s .25s, transform 1.5s .25s;
+}
+
+
 
 .full-height {
     height: 100vh;
