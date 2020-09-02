@@ -48,20 +48,26 @@ a, a:hover {
 .intro .intro_slide .intro_slide_btn {
     filter: drop-shadow(2px 4px 6px black);
     -webkit-filter: drop-shadow(2px 4px 6px black);
-    position: relative;
-    margin: 0 auto;
 }
 
 
 .intro .intro_slide .intro_slide_img .prev_btn {
     top: calc(50% - 50px);
     text-align: left;
+    width: 40px;
+    position: absolute;
+    left: 40px;
 }
 .intro .intro_slide .intro_slide_img .next_btn {
     top: calc(50% - 50px);
     text-align: right;
+    width: 40px;
+    position: absolute;
+    right: 40px;
 }
 .intro .intro_slide .intro_slide_img .down_btn {
+    position: relative;
+    margin: 0 auto;
     top: calc(100% - 50px);
     text-align: center;
 }
