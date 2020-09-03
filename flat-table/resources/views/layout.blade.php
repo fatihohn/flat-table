@@ -77,14 +77,20 @@
             navigation.classList.remove("active");
             overlay.classList.remove("active");
         }
-        if(document.querySelector(".active")) {
-            // menuBtn.addEventListener("click", hideNav);
-            menuBtn.onClick = hideNav;
-        } else {
-            // menuBtn.addEventListener("click", showNav);
-            menuBtn.onClick = showNav;
-        }
-         
+        // if(document.querySelector(".active")) {
+        //     // menuBtn.addEventListener("click", hideNav);
+        //     menuBtn.onClick = hideNav;
+        // } else {
+        //     // menuBtn.addEventListener("click", showNav);
+        //     menuBtn.onClick = showNav;
+        // }
+         menuBtn.addEventListener("click", function() {
+             if(navigation.style.visibility == "hidden") {
+                 showNav();
+             } else {
+                 hideNav();
+             }
+         });
     }
     manageNav();
 
