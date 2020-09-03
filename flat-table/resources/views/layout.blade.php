@@ -66,29 +66,18 @@
         let overlay = document.getElementById("overlay");
 
         function showNav() {
-            // let navigation = document.querySelector(".nav");
-            // let overlay = document.querySelector(".overlay");
-            navigation.setAttribute("class", "nav fixed active");
-            overlay.setAttribute("class", "overlay active");
+            navigation.classList.add("active");
+            overlay.classList.add("active");
         }
         function hideNav() {
-            // let navigation = document.querySelector(".nav");
-            // let overlay = document.querySelector(".overlay");
             navigation.classList.remove("active");
             overlay.classList.remove("active");
         }
-        // if(document.querySelector(".active")) {
-        //     // menuBtn.addEventListener("click", hideNav);
-        //     menuBtn.onClick = hideNav;
-        // } else {
-        //     // menuBtn.addEventListener("click", showNav);
-        //     menuBtn.onClick = showNav;
-        // }
          menuBtn.addEventListener("click", function() {
-             if(navigation.style.visibility == "hidden") {
-                 showNav();
-             } else {
+             if(navigation.classList.contains("active")) {
                  hideNav();
+             } else {
+                 showNav();
              }
          });
     }
