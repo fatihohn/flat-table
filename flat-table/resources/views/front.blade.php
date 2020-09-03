@@ -46,7 +46,7 @@
 
     <script>
         function scrollDown() {
-            let downBtn = document.querySelector(".down_btn");
+            let downBtn = document.querySelector(".down_btn a img");
             let pageHeight = window.innerHeight;
             downBtn.addEventListener("click", function() {
                 window.scrollBy(0, pageHeight);
