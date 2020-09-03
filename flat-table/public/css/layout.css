@@ -31,7 +31,7 @@ ol, ul {
     height: 50px;
     background: #fff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-    z-index: 550;
+    z-index: 700;
     transition: all 300ms;
 }
 
@@ -240,6 +240,7 @@ ol, ul {
     letter-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all 300ms ease;
 }
 
 .nav .nav_group li a:hover {
