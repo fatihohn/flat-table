@@ -64,14 +64,19 @@
     const navigation = document.querySelector(".nav");
     const overlay = document.querySelector(".overlay");
 
-    menuBtn.addEventListener("click", function() {
-        // showNav;
-        if(navigation.style.visiblity === "hidden") {
-            showNav();
-        } else {
-            hideNav();
-        }
-    });
+    // menuBtn.addEventListener("click", function() {
+    //     // showNav;
+    //     if(navigation.style.visiblity === "hidden") {
+    //         showNav();
+    //     } else {
+    //         hideNav();
+    //     }
+    // });
+    if(navigation.style.visibility == "hidden") {
+        menuBtn.onClick = showNav();
+    } else {
+        menuBtn.onClick = hideNav();
+    }
 
     function showNav() {
         navigation.setAttribute("class", "nav fixed active");
