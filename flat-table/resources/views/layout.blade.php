@@ -62,8 +62,8 @@
 <script>
     function manageNav() {
         let menuBtn = document.querySelector(".menu");
-        let navigation = document.querySelector("#nav");
-        let overlay = document.querySelector("#overlay");
+        let navigation = document.getElementById("nav");
+        let overlay = document.getElementById("overlay");
 
         function showNav() {
             // let navigation = document.querySelector(".nav");
