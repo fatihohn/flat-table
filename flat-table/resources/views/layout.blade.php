@@ -84,7 +84,6 @@
          });
     }
     manageNav();
-
 </script>
 
 

@@ -8,6 +8,8 @@
             <!--대표 평상 이미지 목록-->
                 <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
                     <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </div>
                 <!--대표 평상 이미지 목록 끝-->
             <div class="intro_slide_img"><!--배경 이미지 넣기-->
@@ -30,7 +32,7 @@
         </div>
     </div>
         <!-- 평상 리스트 -->
-    <div class="main">
+    <div class="main" style="height=1000px;">
         <div class="container">
             <ul>
                 <li>
@@ -42,5 +44,15 @@
         </div>
     </div>
 
+    <script>
+        function scrollDown() {
+            let downBtn = document.querySelector(".down_btn");
+            let pageHeight = window.innerHeight;
+            downBtn.addEventListener("click", function() {
+                window.scrollBy(0, pageHeight);
+            });
+        }
+        scrollDown();
+    </script>
 @endsection
 
