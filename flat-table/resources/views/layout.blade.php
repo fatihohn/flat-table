@@ -60,34 +60,29 @@
 
             
 <script>
-    const menuBtn = document.querySelector(".menu");
-    const navigation = document.querySelector(".nav");
-    const overlay = document.querySelector(".overlay");
+    function manageNav() {
+        let menuBtn = document.querySelector(".menu");
+        let navigation = document.querySelector(".nav");
+        let overlay = document.querySelector(".overlay");
 
-    // menuBtn.addEventListener("click", function() {
-    //     // showNav;
-    //     if(navigation.style.visiblity === "hidden") {
-    //         showNav();
-    //     } else {
-    //         hideNav();
-    //     }
-    // });
-    if(navigation.style.visibility == "hidden") {
-        menuBtn.onClick = showNav();
-    } else {
-        menuBtn.onClick = hideNav();
+        function showNav() {
+            navigation.setAttribute("class", "nav fixed active");
+            overlay.setAttribute("class", "overlay active");
+        }
+        function hideNav() {
+            // let navigation = document.querySelector(".nav");
+            // let overlay = document.querySelector(".overlay");
+            navigation.setAttribute("class", "nav fixed");
+            overlay.setAttribute("class", "overlay");
+        }
+        if(navigation.style.visibility == "hidden") {
+            menuBtn.onClick = showNav();
+        } else {
+            menuBtn.onClick = hideNav();
+        }
     }
+    manageNav();
 
-    function showNav() {
-        navigation.setAttribute("class", "nav fixed active");
-        overlay.setAttribute("class", "overlay active");
-    }
-    function hideNav() {
-        // let navigation = document.querySelector(".nav");
-        // let overlay = document.querySelector(".overlay");
-        navigation.setAttribute("class", "nav fixed");
-        overlay.setAttribute("class", "overlay");
-    }
 </script>
 
 
