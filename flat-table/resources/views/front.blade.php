@@ -23,8 +23,8 @@
                         <img src="/img/next_btn.png" alt="next_btn">
                     </a>
                 </div>
-                <div id="down_btn" class="intro_slide_btn down_btn">
-                    <a href="#">
+                <div  class="intro_slide_btn down_btn">
+                    <a id="down_btn" href="#">
                         <img src="/img/down_btn.png" alt="down_btn">
                     </a>
                 </div>
