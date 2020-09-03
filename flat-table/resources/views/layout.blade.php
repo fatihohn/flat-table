@@ -68,10 +68,12 @@
         function showNav() {
             navigation.classList.add("active");
             overlay.classList.add("active");
+            menuBtn.classList.add("active");
         }
         function hideNav() {
             navigation.classList.remove("active");
             overlay.classList.remove("active");
+            menuBtn.classList.remove("active");
         }
          menuBtn.addEventListener("click", function() {
              if(navigation.classList.contains("active")) {

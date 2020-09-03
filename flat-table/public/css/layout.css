@@ -187,6 +187,20 @@ ol, ul {
     width: 100%;
 }
 
+.actions .x.active .top {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 7px;
+}
+.actions .x.active .middle {
+    opacity: 0;
+}
+.actions .x.active .bottom {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -7px;
+}
+
 .nav {
     padding: 8% 0;
     position: absolute;
