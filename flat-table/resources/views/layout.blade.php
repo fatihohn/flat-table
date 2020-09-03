@@ -33,7 +33,7 @@
         </div>
     <!-- <div class="flex-center position-ref full-height">
     </div> -->
-        <nav class="nav fixed active">
+        <nav class="nav fixed">
             <ul class="nav_group">
                 <li class="nav_item">
                     <mark>.01</mark>
@@ -55,11 +55,22 @@
                 </li>
             </ul>
         </nav>
-        <div class="overlay active"></div>
+        <div class="overlay"></div>
         @yield ('content')
 
             
+<script>
+    let menuBtn = document.querySelector(".menu");
 
+    menuBtn.addEventListener("click", showNav);
+
+    function showNav() {
+        let navigation = document.querySelector(".nav");
+        let overlay = document.querySelector(".overlay");
+        navigation.setAttribute("class", "nav active");
+        overlay.setAttribute("class", "overlay active");
+    }
+</script>
 
 
     </body>
