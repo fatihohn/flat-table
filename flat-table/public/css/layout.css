@@ -241,3 +241,7 @@ ol, ul {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.nav .nav_group li a:hover {
+    color: #333;
+}
