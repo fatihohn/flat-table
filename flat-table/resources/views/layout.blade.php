@@ -77,7 +77,7 @@
             navigation.setAttribute("class", "nav fixed");
             overlay.setAttribute("class", "overlay");
         }
-        if(navigation.style.visibility == "hidden") {
+        if(!document.querySelector(".nav.active")) {
             menuBtn.addEventListener("click", showNav);
             // menuBtn.onClick = showNav();
         } else {
