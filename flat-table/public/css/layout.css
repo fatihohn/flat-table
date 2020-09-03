@@ -84,7 +84,7 @@ ol, ul {
     margin: 0 auto;
     top: calc(100% - 80px);
     text-align: center;
-    
+    width: 100px;
 }
 .intro .intro_slide .intro_slide_img .prev_btn img,
 .intro .intro_slide .intro_slide_img .next_btn img {
