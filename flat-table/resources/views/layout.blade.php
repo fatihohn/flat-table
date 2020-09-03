@@ -74,18 +74,17 @@
         function hideNav() {
             // let navigation = document.querySelector(".nav");
             // let overlay = document.querySelector(".overlay");
-            navigation.removeAttribute("class");
-            overlay.removeAttribute("class");
-            navigation.setAttribute("class", "nav fixed");
-            overlay.setAttribute("class", "overlay");
+            navigation.classList.remove("active");
+            overlay.classList.remove("active");
         }
         if(document.querySelector(".active")) {
-            menuBtn.addEventListener("click", hideNav);
-            // menuBtn.onClick = showNav();
+            // menuBtn.addEventListener("click", hideNav);
+            menuBtn.onClick = hideNav();
         } else {
-            menuBtn.addEventListener("click", showNav);
-            // menuBtn.onClick = hideNav();
+            // menuBtn.addEventListener("click", showNav);
+            menuBtn.onClick = showNav();
         }
+         
     }
     manageNav();
 
