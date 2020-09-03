@@ -9,7 +9,7 @@
             <div class="intro_slide_imgs" style="visibility:hidden">
                 <img src="" alt="">
             </div>
-        <!-- @endforeach ->
+        <!-- @endforeach -->
         <div class="intro_slide_img"><!--배경 이미지 넣기-->
             <div class="intro_slide_btn prev_btn">
                 <a href="#">
