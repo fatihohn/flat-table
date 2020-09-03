@@ -17,6 +17,7 @@ html, body {
 a, a:hover {
     text-decoration: none;
     color: #777;
+    cursor: pointer;
 }
 
 ol, ul {
