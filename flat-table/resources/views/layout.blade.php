@@ -79,10 +79,10 @@
         }
         if(document.querySelector(".active")) {
             // menuBtn.addEventListener("click", hideNav);
-            menuBtn.onClick = hideNav();
+            menuBtn.onClick = hideNav;
         } else {
             // menuBtn.addEventListener("click", showNav);
-            menuBtn.onClick = showNav();
+            menuBtn.onClick = showNav;
         }
          
     }
