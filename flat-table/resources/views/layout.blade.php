@@ -62,6 +62,8 @@
 <script>
     function manageNav() {
         let menuBtn = document.querySelector(".menu");
+        let navigation = document.querySelector(".nav");
+        let overlay = document.querySelector(".overlay");
 
         function showNav() {
             let navigation = document.querySelector(".nav");
@@ -72,8 +74,6 @@
         function hideNav() {
             let navigation = document.querySelector(".nav");
             let overlay = document.querySelector(".overlay");
-            // let navigation = document.querySelector(".nav");
-            // let overlay = document.querySelector(".overlay");
             navigation.setAttribute("class", "nav fixed");
             overlay.setAttribute("class", "overlay");
         }
