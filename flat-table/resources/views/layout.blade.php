@@ -79,7 +79,7 @@
             navigation.setAttribute("class", "nav fixed");
             overlay.setAttribute("class", "overlay");
         }
-        if(!document.querySelector(".nav.active")) {
+        if(!document.querySelector(".active")) {
             menuBtn.addEventListener("click", showNav);
             // menuBtn.onClick = showNav();
         } else {
