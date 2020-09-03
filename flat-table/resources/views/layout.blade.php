@@ -52,6 +52,7 @@
                 </li>
             </ul>
         </nav>
+        <div class="overlay active"></div>
         @yield ('content')
 
             
