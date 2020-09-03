@@ -64,11 +64,11 @@
     let navigation = document.querySelector(".nav");
     let overlay = document.querySelector(".overlay");
 
-    menuBtn.addEventListener("click", function() {
+    menuBtn.addEventListener("click", function {
         if(navigation.style.visiblity === "hidden") {
-            showNav;
+            showNav();
         } else {
-            hideNav;
+            hideNav();
         }
     });
 
