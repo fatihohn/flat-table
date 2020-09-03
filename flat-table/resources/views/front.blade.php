@@ -24,7 +24,7 @@
                     </a>
                 </div>
                 <div class="intro_slide_btn down_btn">
-                    <a href="#">
+                    <a id="down_btn" href="#">
                         <img src="/img/down_btn.png" alt="down_btn">
                     </a>
                 </div>
@@ -46,7 +46,7 @@
 
     <script>
         function scrollDown() {
-            let downBtn = document.querySelector(".down_btn a img");
+            let downBtn = document.querySelector("#down_btn");
             let pageHeight = window.innerHeight;
             downBtn.addEventListener("click", function() {
                 window.scrollBy(0, pageHeight);
