@@ -60,12 +60,12 @@
 
             
 <script>
-    let menuBtn = document.querySelector(".menu");
-    let navigation = document.querySelector(".nav");
-    let overlay = document.querySelector(".overlay");
+    const menuBtn = document.querySelector(".menu");
+    const navigation = document.querySelector(".nav");
+    const overlay = document.querySelector(".overlay");
 
     menuBtn.addEventListener("click", function() {
-        showNav;
+        // showNav;
         if(navigation.style.visiblity === "hidden") {
             showNav();
         } else {
