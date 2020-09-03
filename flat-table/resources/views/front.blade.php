@@ -6,7 +6,7 @@
     <div class="intro">
         <div class="intro_slide">
             <!--대표 평상 이미지 목록-->
-                <div class="intro_slide_imgs" style="visibility:hidden">
+                <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
                     <img src="" alt="">
                 </div>
                 <!--대표 평상 이미지 목록 끝-->
@@ -35,7 +35,7 @@
             <ul>
                 <li>
                     <div>
-                        
+
                     </div>
                 </li>
             </ul>

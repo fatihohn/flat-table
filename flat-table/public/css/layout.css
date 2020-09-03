@@ -18,6 +18,11 @@ a, a:hover {
     text-decoration: none;
     color: #777;
 }
+
+ol, ul {
+    list-style: none;
+}
+
 .header {
     text-align: center;
     position: fixed;
@@ -26,7 +31,7 @@ a, a:hover {
     height: 50px;
     background: #fff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-    z-index: 500;
+    z-index: 550;
     transition: all 300ms;
 }
 
@@ -188,7 +193,7 @@ a, a:hover {
     opacity: 0;
     text-align: center;
     width: 100%;
-    z-index: 700;
+    z-index: 550;
     visibility: hidden;
     transition: all .5s;
 }
@@ -226,4 +231,8 @@ a, a:hover {
     letter-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
+}
+.nav .nav_group li {
+    display: block;
+    margin: 30px 0;
 }
