@@ -32,7 +32,7 @@
         </div>
     </div>
         <!-- 평상 리스트 -->
-    <div class="main" style="height=1000px;">
+    <div class="main" style="height:1000px;">
         <div class="container">
             <ul>
                 <li>
