@@ -24,8 +24,8 @@
                     </a>
                 </div>
                 <div  class="intro_slide_btn down_btn">
-                    <a id="down_btn" href="#">
-                        <img src="/img/down_btn.png" alt="down_btn">
+                    <a href="#">
+                        <img id="down_btn" src="/img/down_btn.png" alt="down_btn">
                     </a>
                 </div>
             </div>
