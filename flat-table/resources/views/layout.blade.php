@@ -85,8 +85,9 @@
         //     menuBtn.onClick = showNav;
         // }
          menuBtn.addEventListener("click", function() {
-             if(navigation.style.visibility == "hidden") {
+             if(document.querySelector(".nav").style.visibility == "hidden") {
                  showNav();
+
              } else {
                  hideNav();
              }
