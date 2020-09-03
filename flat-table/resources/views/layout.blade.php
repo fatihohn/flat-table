@@ -61,14 +61,26 @@
             
 <script>
     let menuBtn = document.querySelector(".menu");
+    let navigation = document.querySelector(".nav");
+    let overlay = document.querySelector(".overlay");
 
-    menuBtn.addEventListener("click", showNav);
+    menuBtn.addEventListener("click", function() {
+        if(navigation.style.visiblity === "hidden") {
+            showNav();
+        } else {
+            hideNav();
+        }
+    });
 
     function showNav() {
-        let navigation = document.querySelector(".nav");
-        let overlay = document.querySelector(".overlay");
         navigation.setAttribute("class", "nav active");
         overlay.setAttribute("class", "overlay active");
+    }
+    function hideNav() {
+        // let navigation = document.querySelector(".nav");
+        // let overlay = document.querySelector(".overlay");
+        navigation.setAttribute("class", "nav");
+        overlay.setAttribute("class", "overlay");
     }
 </script>
 
