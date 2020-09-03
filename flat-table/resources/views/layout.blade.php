@@ -79,11 +79,11 @@
             navigation.setAttribute("class", "nav fixed");
             overlay.setAttribute("class", "overlay");
         }
-        if(!document.querySelector(".active")) {
-            menuBtn.addEventListener("click", showNav);
+        if(document.querySelector(".active")) {
+            menuBtn.addEventListener("click", hideNav);
             // menuBtn.onClick = showNav();
         } else {
-            menuBtn.addEventListener("click", hideNav);
+            menuBtn.addEventListener("click", showNav);
             // menuBtn.onClick = hideNav();
         }
     }
