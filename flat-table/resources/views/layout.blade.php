@@ -78,9 +78,11 @@
             overlay.setAttribute("class", "overlay");
         }
         if(navigation.style.visibility == "hidden") {
-            menuBtn.onClick = showNav();
+            menuBtn.addEventListener("click", showNav);
+            // menuBtn.onClick = showNav();
         } else {
-            menuBtn.onClick = hideNav();
+            menuBtn.addEventListener("click", hideNav);
+            // menuBtn.onClick = hideNav();
         }
     }
     manageNav();
