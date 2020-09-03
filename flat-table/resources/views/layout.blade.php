@@ -36,16 +36,19 @@
         <nav class="nav fixed active">
             <ul class="nav_group">
                 <li class="nav_item">
+                    <mark>.01</mark>
                     <a href="#">
                         평상들
                     </a>
                 </li>
                 <li class="nav_item">
+                    <mark>.02</mark>
                     <a href="#">
                         평상지도
                     </a>
                 </li>
                 <li class="nav_item">
+                    <mark>.03</mark>
                     <a href="#">
                         평상으로부터
                     </a>

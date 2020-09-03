@@ -231,6 +231,13 @@ ol, ul {
     margin: 50px 0;
 }
 
+.nav .nav_group li mark {
+    color: #c28c29;
+    background: none;
+    font-style: italic;
+    font-weight: 600;
+}
+
 .nav .nav_group li a {
     color: #c5c5c5;
     display: block;
