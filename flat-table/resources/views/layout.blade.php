@@ -66,20 +66,20 @@
 
     menuBtn.addEventListener("click", function() {
         if(navigation.style.visiblity === "hidden") {
-            showNav();
+            showNav;
         } else {
-            hideNav();
+            hideNav;
         }
     });
 
     function showNav() {
-        navigation.setAttribute("class", "nav active");
+        navigation.setAttribute("class", "nav fixed active");
         overlay.setAttribute("class", "overlay active");
     }
     function hideNav() {
         // let navigation = document.querySelector(".nav");
         // let overlay = document.querySelector(".overlay");
-        navigation.setAttribute("class", "nav");
+        navigation.setAttribute("class", "nav fixed");
         overlay.setAttribute("class", "overlay");
     }
 </script>
