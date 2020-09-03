@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+
 html, body {
     background-color: #fff;
     color: #636b6f;
@@ -124,7 +132,7 @@ a, a:hover {
 
 .title {
     font-size: 1.8rem;
-    font-family: '경기천년바탕';
+    font-family: 'GyeonggiBatang';
     color: #777;
 }
 
