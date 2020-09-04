@@ -7,9 +7,9 @@
         <div class="intro_slide">
             <!--대표 평상 이미지 목록-->
                 <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="">
+                    <img src="https://www.doongdoong.org/se2/upload/c_modify_20200706093011525244320FUN_4974_001.jpg" alt="">
+                    <img src="https://www.doongdoong.org/se2/upload/c_modify_20200706093043948349794IMG_0913.JPG" alt="">
                 </div>
                 <!--대표 평상 이미지 목록 끝-->
             <div class="intro_slide_img"><!--배경 이미지 넣기-->
@@ -111,9 +111,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -139,9 +142,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -167,9 +173,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -195,9 +204,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -223,9 +235,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -251,9 +266,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -279,9 +297,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -307,9 +328,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -335,9 +359,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -363,9 +390,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -391,9 +421,12 @@
                                             </span>
                                         </a>
                                     </h1>
-                                    <p>
-                                        자전거 거치대를 개조해 만든 평상. 
-                                    </p>
+                                    <div class="article_comment">
+                                        <p>
+                                            자전거 거치대를 개조해 만든 평상. 
+                                        </p>
+
+                                    </div>
                                 </div>
                             </article>
                         </li>
@@ -422,6 +455,12 @@
         window.onscroll = function() {
             opacityByScroll();
         };
+
+        function setIntroImg() {
+            let introSlide = document.querySelector(".intro_slide_img");
+            
+        }
+
     </script>
 @endsection
 
