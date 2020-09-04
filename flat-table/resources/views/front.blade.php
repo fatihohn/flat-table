@@ -54,7 +54,7 @@
         <div class="main">
             <div class="container group">
                 <header class="container_header">
-                    <img src="/img/flat_table_icon.png" alt="flat_table_icon">
+                    <img src="/img/flat_table_icon.svg" alt="flat_table_icon">
                     <h1>평상들</h1>
                 </header>
                 <nav class="container_nav group">
