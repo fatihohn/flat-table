@@ -36,8 +36,7 @@
         <div class="container group">
             <div class="col-1">
                 <h1>
-                    동두천
-                    <em>의</em>
+                    동두천<em>의</em>
                     평상
                 </h1>
             </div>
