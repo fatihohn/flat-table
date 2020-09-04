@@ -3,7 +3,7 @@
 
 @section ('content')
 
-    <div class="intro">
+    <aside class="intro">
         <div class="intro_slide">
             <!--대표 평상 이미지 목록-->
                 <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
@@ -30,25 +30,26 @@
                 </div>
             </div>
         </div>
-        <aside class="tagline">
-            <div class="container group">
-                <div class="col-1">
-                    <h1>
-                        동두천
-                        <em>의</em>
-                        평상
-                    </h1>
-                </div>
-                <div class="col-2">
-                    <h2>변방평상</h2>
-                    <p>
-                        평상을 이용하는 사람들의 문화를 관찰합니다. <br> 
-                        평상이 품은 역사와 특유의 문화를 배웁니다.
-                    </p>
-                </div>
+    </aside>
+    <div class="spacer"></div>
+    <aside class="tagline">
+        <div class="container group">
+            <div class="col-1">
+                <h1>
+                    동두천
+                    <em>의</em>
+                    평상
+                </h1>
             </div>
-        </aside>
-    </div>
+            <div class="col-2">
+                <h2>변방평상</h2>
+                <p>
+                    평상을 이용하는 사람들의 문화를 관찰합니다. <br> 
+                    평상이 품은 역사와 특유의 문화를 배웁니다.
+                </p>
+            </div>
+        </div>
+    </aside>
         <!-- 평상 리스트 -->
     <section class="front_main">
         <div class="main">
