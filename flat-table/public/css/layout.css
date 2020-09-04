@@ -446,9 +446,6 @@ em {
     padding: 20px 20px 34px 20px;
     position: relative;
 }
-.collection .article .article_content .article_comment {
-    overflow: hidden;
-}
 .collection .article .article_content:before {
     content: " ";
     left: 20px;
@@ -458,6 +455,16 @@ em {
     position: absolute;
     top: -7px;
 }
+
+.collection .article .article_content .article_comment {
+    overflow: hidden;
+}
+.collection .article .article_content .article_comment>p {
+    font-size: 14px;
+    /* font-family: "p22-underground",sans-serif; */
+    line-height: 1.4;
+}
+
 .collection .article .meta {
     margin: 0 0 14px 0;
 }
@@ -478,11 +485,7 @@ em {
 .collection .article .article_title .line {
     border-bottom: 2px solid #c28c29
 }
-.collection .article>p {
-    font-size: 14px;
-    /* font-family: "p22-underground",sans-serif; */
-    line-height: 1.4;
-}
+
 
 
 
