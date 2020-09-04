@@ -275,6 +275,12 @@ ol, ul {
     max-width: 1000px;
     width: 90%;
 }
+.group:before, .group:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
 .tagline {
     background: #fff;
     padding: 75px 0;
@@ -294,7 +300,7 @@ ol, ul {
     width: 48%;
 }
 em {
-    font-style: italic;
+    font-style: normal;
 }
 .tagline h1 em {
     font-weight: 400;

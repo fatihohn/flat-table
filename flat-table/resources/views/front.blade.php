@@ -31,7 +31,7 @@
             </div>
         </div>
         <aside class="tagline">
-            <div class="container">
+            <div class="container group">
                 <div class="col-1">
                     <h1>
                         동두천
@@ -51,7 +51,7 @@
     </div>
         <!-- 평상 리스트 -->
     <div class="main">
-        <div class="container">
+        <div class="container group">
             <header class="container_header">
                 <img src="/img/flat_table_icon.png" alt="flat_table_icon">
                 <h1>평상들</h1>
