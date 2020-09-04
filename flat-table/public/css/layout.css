@@ -276,7 +276,16 @@ ol, ul {
     width: 90%;
 }
 
-
+/*main*/
+.main .container .container_header {
+    text-align: center;
+}
+.main .container .container_header img {
+    width: 200px;
+}
+.main .container .container_header h1 {
+    margin-top: 10px;
+}
 
 
 /*footer*/
