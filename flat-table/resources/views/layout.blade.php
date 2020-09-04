@@ -58,33 +58,57 @@
         <div id="overlay" class="overlay"></div>
         @yield ('content')
 
-            
-<script>
-    function manageNav() {
-        let menuBtn = document.querySelector(".menu");
-        let navigation = document.getElementById("nav");
-        let overlay = document.getElementById("overlay");
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="column">
+                    <p>
+                        <a href="https://www.facebook.com/3355inmun/">삼삼오오청년인문실험</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <p>
+                        <a href="https://doongdoong.org">변방의북소리 둥둥</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <p>
+                        <a href="https://github.com/fatihohn">구석진개발자</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <p class="copyright">
+                        © 변방평상 2020
+                    </p>
+                </div>
+            </div>
+        </footer>
+                    
+        <script>
+            function manageNav() {
+                let menuBtn = document.querySelector(".menu");
+                let navigation = document.getElementById("nav");
+                let overlay = document.getElementById("overlay");
 
-        function showNav() {
-            navigation.classList.add("active");
-            overlay.classList.add("active");
-            menuBtn.classList.add("active");
-        }
-        function hideNav() {
-            navigation.classList.remove("active");
-            overlay.classList.remove("active");
-            menuBtn.classList.remove("active");
-        }
-         menuBtn.addEventListener("click", function() {
-             if(navigation.classList.contains("active")) {
-                 hideNav();
-             } else {
-                 showNav();
-             }
-         });
-    }
-    manageNav();
-</script>
+                function showNav() {
+                    navigation.classList.add("active");
+                    overlay.classList.add("active");
+                    menuBtn.classList.add("active");
+                }
+                function hideNav() {
+                    navigation.classList.remove("active");
+                    overlay.classList.remove("active");
+                    menuBtn.classList.remove("active");
+                }
+                menuBtn.addEventListener("click", function() {
+                    if(navigation.classList.contains("active")) {
+                        hideNav();
+                    } else {
+                        showNav();
+                    }
+                });
+            }
+            manageNav();
+        </script>
 
 
     </body>

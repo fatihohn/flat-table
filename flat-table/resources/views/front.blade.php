@@ -32,15 +32,23 @@
         </div>
     </div>
         <!-- 평상 리스트 -->
-    <div class="main" style="height:1000px;">
+    <div class="main">
         <div class="container">
-            <ul>
-                <li>
-                    <div>
+            <header class="container_header">
+                <img src="/img/flat_table_icon.png" alt="flat_table_icon">
+                <h1>평상들</h1>
+            </header>
+            <nav class="container_nav">
+            </nav>
+            <div class="container_inner">
+                <ul>
+                    <li>
+                        <div>
 
-                    </div>
-                </li>
-            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
