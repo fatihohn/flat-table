@@ -17,7 +17,7 @@
         <div class="header">
             <div class="title header-margin">
                 <div class="box actions">
-                    <a href="#" class="menu x">
+                    <a class="menu x">
                         <span class="line top"></span>
                         <span class="line middle"></span>
                         <span class="line bottom"></span>
