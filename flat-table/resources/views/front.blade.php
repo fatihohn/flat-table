@@ -30,6 +30,24 @@
                 </div>
             </div>
         </div>
+        <aside class="tagline">
+            <div class="container">
+                <div class="col-1">
+                    <h1>
+                        동두천
+                        <em>의</em>
+                        평상
+                    </h1>
+                </div>
+                <div class="col-2">
+                    <h2>변방평상</h2>
+                    <p>
+                        평상을 이용하는 사람들의 문화를 관찰합니다. <br> 
+                        평상이 품은 역사와 특유의 문화를 배웁니다.
+                    </p>
+                </div>
+            </div>
+        </aside>
     </div>
         <!-- 평상 리스트 -->
     <div class="main">

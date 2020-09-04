@@ -275,8 +275,51 @@ ol, ul {
     max-width: 1000px;
     width: 90%;
 }
-
+.tagline {
+    background: #fff;
+    padding: 75px 0;
+    position: relative;
+    z-index: 5;
+}
+.tagline .container {
+    position: relative;
+}
+.tagline .col-1 {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.tagline .col-2 {
+    float: right;
+    width: 48%;
+}
+em {
+    font-style: italic;
+}
+.tagline h1 em {
+    font-weight: 400;
+}
+.tagline h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+.tagline h2 {
+    font-family: "p22-underground",sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+.tagline p {
+    font-size: 18px;
+    line-height: 1.4;
+}
 /*main*/
+.main {
+    position: relative;
+    background: #edecec;
+    padding: 50px 0;
+}
 .main .container .container_header {
     text-align: center;
 }
