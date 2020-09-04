@@ -286,6 +286,7 @@ ol, ul {
     padding: 75px 0;
     position: relative;
     z-index: 5;
+    display: flex;
 }
 .tagline .container {
     position: relative;
