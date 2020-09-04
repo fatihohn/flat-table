@@ -116,7 +116,9 @@
             let slideImg = document.querySelector(".intro_slide_img");
             slideImg.style.opacity = 1 - scrollPosition/pageHeight;
         }
-        window.onscroll = opacityByScroll();
+        window.onscroll = function() {
+            opacityByScroll();
+        };
     </script>
 @endsection
 
