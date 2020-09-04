@@ -429,6 +429,7 @@ em {
     margin: 0 1% 2% 0;
     width: 23.5%;
     display: inline-block;
+    vertical-align: top;
 }
 .collection .article figure {
     display: block;
