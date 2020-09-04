@@ -422,9 +422,13 @@ em {
 }
 
 /*article*/
+.collection ul {
+    display: inline-block;
+}
 .collection ul li {
-    margin: 0 2% 2% 0;
+    margin: 0 1% 2% 0;
     width: 23.5%;
+    display: inline-block;
 }
 .collection .article figure {
     display: block;
@@ -466,6 +470,9 @@ em {
 .collection .article .article_title {
     font-size: 18px;
     padding-bottom: 3px;
+}
+.collection .article .article_title .line {
+    border-bottom: 2px solid #c28c29
 }
 .collection .article>p {
     font-size: 14px;
@@ -511,6 +518,16 @@ em {
 
 
 
+@media all and (min-width: 1900px) {
+    .main .container {
+        max-width: 2100px;
+    }
+    .collection ul li {
+        margin: 0 1% 2% 0;
+        width: 11%;
+        display: inline-block;
+    }
+}
 @media all and (max-width: 1025px) {
     .tagline {
         padding-top: 75px;
