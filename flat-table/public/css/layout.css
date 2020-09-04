@@ -532,6 +532,10 @@ em {
         padding-top: 75px;
     }
 
+    .collection ul li {
+        margin: 0 1% 2.5% 0;
+        width: 11%;
+    }
 
     .footer .column p {
         font-size: 14px;
@@ -579,6 +583,7 @@ em {
     }
 
     .collection ul li {
+        margin: 0 1% 7% 0;
         width: 100%;
     }
 
