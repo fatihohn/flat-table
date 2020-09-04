@@ -422,9 +422,9 @@ em {
 }
 
 /*article*/
-.collection ul {
+/* .collection ul {
     display: inline-block;
-}
+} */
 .collection ul li {
     margin: 0 1% 2% 0;
     width: 23.5%;
@@ -458,11 +458,17 @@ em {
 
 .collection .article .article_content .article_comment {
     overflow: hidden;
+    max-height: 100px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 .collection .article .article_content .article_comment>p {
     font-size: 14px;
     /* font-family: "p22-underground",sans-serif; */
     line-height: 1.4;
+    overflow: hidden;
 }
 
 .collection .article .meta {
