@@ -475,7 +475,7 @@ em {
         display: none;
     }
 
-    .tagline .h1 {
+    .tagline h1 {
         font-size: 1.8rem;
     }
     .tagline .col-1 {
