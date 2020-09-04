@@ -114,7 +114,7 @@
             let scrollPosition = window.pageYOffset;
             let pageHeight = window.innerHeight;
             let slideImg = document.querySelector(".intro_slide_img");
-            slideImg.style.opacity = toString(1 - pageHeight/scrollPosition);
+            slideImg.style.opacity = 1 - scrollPosition/pageHeight;
         }
         opacityByScroll();
     </script>
