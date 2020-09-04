@@ -350,6 +350,71 @@ em {
     margin-top: 10px;
 }
 
+/*container_nav*/
+.filter_container {
+    display: block;
+    float: left;
+    margin: 0 0 0 -10px;
+    padding: 5px 10px;
+    position: relative;
+    min-width: 230px;
+    vertical-align: middle;
+    z-index: 500;
+}
+
+.filter_list {
+    border-bottom: 1px solid #1a1a1a;
+    display: block;
+    /* font-family: "p22-underground",sans-serif; */
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.filter_list .action {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.filter_list .action span {
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -3px 0 0 0;
+}
+
+.filter_list .collapseable-lined {
+    background: #D9EDE0;
+    display: none;
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    top: 41px;
+    width: 100%;
+    z-index: 5;
+}
+
+.filter_list .collapseable {
+    display: none;
+    outline: 1px solid #b2b2b2;
+}
+
+.filter_list .list .scroller {
+    overflow-y: scroll;
+    max-height: 250px;
+}
+
+.filter_list .list .link {
+    margin: 8px 0;
+}
+
+.filter_list .list .link a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
 
 /*footer*/
 .footer {

@@ -57,7 +57,35 @@
                     <img src="/img/flat_table_icon.png" alt="flat_table_icon">
                     <h1>평상들</h1>
                 </header>
-                <nav class="container_nav">
+                <nav class="container_nav group">
+                    <div class="filter_container">
+                        <div class="filter_list">
+                            <a href="#" class="action">
+                                구분
+                                <span>+</span>
+                            </a>
+                            <div class="collapseable-lined"></div>
+                            <div class="list collapseable">
+                                <div class="scroller">
+                                    <div class="link">
+                                        <a href="#">sample</a>
+                                    </div>
+                                    <div class="link">
+                                        <a href="#">sample</a>
+                                    </div>
+                                    <div class="link">
+                                        <a href="#">sample</a>
+                                    </div>
+                                    <div class="link">
+                                        <a href="#">sample</a>
+                                    </div>
+                                    <div class="link">
+                                        <a href="#">sample</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
                 <div class="container_inner">
                     <ul>
