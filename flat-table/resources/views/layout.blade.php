@@ -59,7 +59,7 @@
         @yield ('content')
 
         <footer class="footer">
-            <div class="footer_container">
+            <div class="container">
                 <div class="column">
                     <p>
                         <a href="https://www.facebook.com/3355inmun/">삼삼오오청년인문실험</a>
