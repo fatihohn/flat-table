@@ -224,7 +224,7 @@ ol, ul {
     top: 0;
     width: 100%;
     visibility: hidden;
-    z-index: 500;
+    z-index: 510;
     transition: all .5s;
 }
 .nav.fixed {
