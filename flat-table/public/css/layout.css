@@ -465,6 +465,15 @@ em {
     }
 }
 @media all and (max-width: 720px) {
+    .nav .nav_group li mark {
+        display: none;
+    }
+    .nav .nav_group li a {
+        font-size: 2rem;
+    }
+
+
+
     .tagline {
         padding-top: 50px;
     }
