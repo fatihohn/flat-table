@@ -43,7 +43,7 @@
             <div class="col-2">
                 <h2>변방평상</h2>
                 <p>
-                    평상을 이용하는 사람들의 문화를 관찰합니다. <br> 
+                    평상을 이용하는 사람들의 문화를 관찰합니다.<br> 
                     평상이 품은 역사와 특유의 문화를 배웁니다.
                 </p>
             </div>
@@ -109,6 +109,14 @@
             });
         }
         scrollDown();
+
+        function opacityByScroll() {
+            let scrollPosition = window.pageYOffset;
+            let pageHeight = window.innerHeight;
+            let slideImg = document.querySelector(".intro_slide_img");
+            slideImg.style.opacity = 1 - pageHeight/scrollPosition;
+        }
+        opacityByScroll();
     </script>
 @endsection
 
