@@ -485,7 +485,7 @@ em {
 
     .filter_container {
         float: none;
-        width: 108%;
+        width: 100%;
     }
 
     .footer {
@@ -507,5 +507,6 @@ em {
     }
     .footer .column p a {
         display: block;
+        color: #1a1a1a;
     }
 }
