@@ -343,9 +343,9 @@ em {
     text-align: center;
 }
 .main .container .container_header img {
-    width: 200px;
-    -webkit-filter: opacity(0.85);
-    filter: opacity(0.85);
+    width: 140px;
+    -webkit-filter: opacity(0.75);
+    filter: opacity(0.75);
 }
 .main .container .container_header h1 {
     margin-top: 10px;
