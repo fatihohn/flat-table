@@ -422,7 +422,7 @@ em {
 }
 
 /*article*/
-.collection .article {
+.collection ul li {
     margin: 0 2% 2% 0;
     width: 23.5%;
 }
