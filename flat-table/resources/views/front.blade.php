@@ -490,22 +490,46 @@
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
-                prevBtn.classList.remove("'"+srcNumber+"'");
-                if(srcNumber > 0) {
+                // prevBtn.classList.remove("'"+srcNumber+"'");
+                // nextBtn.classList.remove("'"+srcNumber+"'");
+                prevBtn.classList.remove(prevBtn.classList.item(2));
+                nextBtn.classList.remove(nextBtn.classList.item(2));
+                if(srcNumber > 0 && srcNumber < slideImgSrc.length -1) {
                     prevBtn.classList.add(srcNumber-1);
-                } else {
+                    nextBtn.classList.add(srcNumber+1);
+                } else if(srcNumber == "0") {
                     prevBtn.classList.add(slideImgSrc.length-1);
+                    nextBtn.classList.add(srcNumber+1);
+                } else if(srcNumber == slideImgSrc.length -1) {
+                    prevBtn.classList.add(srcNumber-1);
+                    nextBtn.classList.add("0");
                 }
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
-                nextBtn.classList.remove("'"+srcNumber+"'");
+                // nextBtn.classList.remove("'"+srcNumber+"'");
                 if(srcNumber < slideImgSrc.length-1) {
                     nextBtn.classList.add(srcNumber+1);
                 } else {
                     nextBtn.classList.add("0");
                 }
+
+                prevBtn.classList.remove(prevBtn.classList.item(2));
+                nextBtn.classList.remove(nextBtn.classList.item(2));
+                if(srcNumber > 0 && srcNumber < slideImgSrc.length -1) {
+                    prevBtn.classList.add(srcNumber-1);
+                    nextBtn.classList.add(srcNumber+1);
+                } else if(srcNumber == "0") {
+                    prevBtn.classList.add(slideImgSrc.length-1);
+                    nextBtn.classList.add(srcNumber+1);
+                } else if(srcNumber == slideImgSrc.length -1) {
+                    prevBtn.classList.add(srcNumber-1);
+                    nextBtn.classList.add("0");
+                }
+
+
+
             }
 
 
