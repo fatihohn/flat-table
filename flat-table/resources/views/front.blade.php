@@ -461,6 +461,8 @@
             let slideImgSrc = document.querySelectorAll(".slide_img_src");
             let prevBtn = document.querySelector(".prev_btn");
             let nextBtn = document.querySelector(".next_btn");
+            // prevBtn.setAttribute("id", "0");
+            // nextBtn.setAttribute("id", "0");
             prevBtn.classList.add("0");
             nextBtn.classList.add("0");
             for(let i = 0; i < slideImgSrc.length; i++) {
@@ -478,10 +480,10 @@
             }
 
             prevBtn.onclick = function() {
-                showPrevImg();
+                showPrevImg(this.classList.item(1));
             }
             nextBtn.onclick = function() {
-                showNextImg();
+                showNextImg(this.classList.item(1));
             }
 
 
