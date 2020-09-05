@@ -479,6 +479,7 @@ em {
 
 .collection .article:hover .article_content:before {
     border-bottom: 7px solid rgba(190, 140, 41, 0.15);
+    z-index: 550;
 }
 
 .collection .article figure {
