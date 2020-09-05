@@ -477,22 +477,22 @@
                 }
             }
 
-            prevBtn.onclick = function() {
-                showPrevImg();
-            }
-            nextBtn.onclick = function() {
-                showNextImg();
-            }
+            // prevBtn.onclick = function() {
+            //     showPrevImg();
+            // }
+            // nextBtn.onclick = function() {
+            //     showNextImg();
+            // }
 
 
-            function showNextImg(srcNumber) {
-                let nextImg = document.querySelector(".slide_img_src.srcNumber");
-                introSlide.style.backgroundImage = url(nextImg.src);
-            }
-            function showPrevImg(srcNumber) {
-                let prevImg = document.querySelector(".slide_img_src.srcNumber");
-                introSlide.style.backgroundImage = url(prevImg.src);
-            }
+            // function showNextImg(srcNumber) {
+            //     let nextImg = document.querySelector(".slide_img_src.srcNumber");
+            //     introSlide.style.backgroundImage = url(nextImg.src);
+            // }
+            // function showPrevImg(srcNumber) {
+            //     let prevImg = document.querySelector(".slide_img_src.srcNumber");
+            //     introSlide.style.backgroundImage = url(prevImg.src);
+            // }
 
 
         }
