@@ -616,15 +616,17 @@
         }
         setIntroImg();
 
-        // function showReadArticle() {
-        //     let articleOverlay = document.querySelector
-        //     let articles = document.querySelectorAll(".article");
-        //     for(let j=0; j < articles.length; j++) {
-        //         articles.onmouseover = function() {
+        function showReadArticle() {
 
-        //         }
-        //     }
-        // }
+            let articles = document.querySelectorAll(".article");
+            for(let j=0; j < articles.length; j++) {
+                articles[j].onmouseover = function() {
+                    articles[j].childNodes[1].childNodes[1].style.opacity = "1";
+                    articles[j].childNodes[1].childNodes[1].style.visibility = "visible";
+                    articles[j].childNodes[1].childNodes[1].style.display = "initial";
+                }
+            }
+        }
 
 
     </script>
