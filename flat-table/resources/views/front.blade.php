@@ -621,7 +621,7 @@
             let articles = document.querySelectorAll(".article");
             for(let j=0; j < articles.length; j++) {
                 articles[j].onmouseover = function() {
-                    articles[j].childNodes[3].style.background = "rgb(230, 210, 170)";
+                    articles[j].childNodes[3].style.background = "rgb(240, 230, 210)";
                     articles[j].childNodes[1].childNodes[1].style.opacity = "1";
                     articles[j].childNodes[1].childNodes[1].style.visibility = "visible";
                     articles[j].childNodes[1].childNodes[1].style.display = "initial";
