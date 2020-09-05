@@ -62,7 +62,8 @@ ul {
     height: 100%;
     width: 100%;
     background: center center / cover no-repeat;
-    background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg');
+    transition: all 1000ms ease-in-out;
+    /* background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg'); */
 }
 
 .intro .intro_slide .intro_slide_btn {
