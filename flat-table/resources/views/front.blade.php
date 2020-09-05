@@ -479,6 +479,7 @@
                 // }
             }
             introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
+            introSlide.style.opacity = "1";
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
             }
@@ -490,6 +491,7 @@
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
+                introSlide.style.opacity = "1";
                 // prevBtn.classList.remove("'"+srcNumber+"'");
                 // nextBtn.classList.remove("'"+srcNumber+"'");
                 prevBtn.classList.remove(prevBtn.classList.item(2));
@@ -508,6 +510,7 @@
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
+                introSlide.style.opacity = "1";
                 // nextBtn.classList.remove("'"+srcNumber+"'");
                 if(srcNumber < slideImgSrc.length-1) {
                     nextBtn.classList.add(parseInt(srcNumber)+1);
