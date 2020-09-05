@@ -625,6 +625,11 @@
                     articles[j].childNodes[1].childNodes[1].style.visibility = "visible";
                     articles[j].childNodes[1].childNodes[1].style.display = "initial";
                 }
+                articles[j].onmouseout = function() {
+                    articles[j].childNodes[1].childNodes[1].style.opacity = "0";
+                    articles[j].childNodes[1].childNodes[1].style.visibility = "hidden";
+                    articles[j].childNodes[1].childNodes[1].style.display = "none";
+                }
             }
         }
         showReadArticle();
