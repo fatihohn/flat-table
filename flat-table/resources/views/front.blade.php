@@ -480,15 +480,15 @@
             }
             introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
             prevBtn.onclick = function() {
-                showPrevImg(this.classList.item(2));
+                showPrevImg(prevBtn.classList.item(2));
             }
             nextBtn.onclick = function() {
-                showNextImg(this.classList.item(2));
+                showNextImg(nextBtn.classList.item(2));
             }
 
 
             function showNextImg(srcNumber) {
-                let nextImg = document.querySelector(".slide_img_src.srcNumber");
+                let nextImg = document.querySelector(".slide_img_src."+srcNumber);
                 introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
                 prevBtn.classList.remove(srcNumber);
                 if(srcNumber > 0) {
@@ -498,7 +498,7 @@
                 }
             }
             function showPrevImg(srcNumber) {
-                let prevImg = document.querySelector(".slide_img_src.srcNumber");
+                let prevImg = document.querySelector(".slide_img_src."+srcNumber);
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
                 nextBtn.classList.remove(srcNumber);
                 if(srcNumber < slideImgSrc.length-1) {
