@@ -621,11 +621,13 @@
             let articles = document.querySelectorAll(".article");
             for(let j=0; j < articles.length; j++) {
                 articles[j].onmouseover = function() {
+                    articles[j].childNodes[3].style.background = "rgba(194, 140, 41, 0.15)";
                     articles[j].childNodes[1].childNodes[1].style.opacity = "1";
                     articles[j].childNodes[1].childNodes[1].style.visibility = "visible";
                     articles[j].childNodes[1].childNodes[1].style.display = "initial";
                 }
                 articles[j].onmouseout = function() {
+                    articles[j].childNodes[3].style.background = "#fff";
                     articles[j].childNodes[1].childNodes[1].style.opacity = "0";
                     articles[j].childNodes[1].childNodes[1].style.visibility = "hidden";
                     articles[j].childNodes[1].childNodes[1].style.display = "none";
