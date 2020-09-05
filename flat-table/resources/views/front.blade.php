@@ -95,7 +95,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -133,7 +133,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -171,7 +171,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -209,7 +209,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -247,7 +247,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -285,7 +285,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -323,7 +323,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -361,7 +361,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -399,7 +399,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -437,7 +437,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -475,7 +475,7 @@
                                     <a href="" class="overlay">
                                         <div class="center">
                                             <p>
-                                                평상 읽기
+                                                읽기
                                             </p>
                                         </div>
                                     </a>
@@ -615,6 +615,18 @@
 
         }
         setIntroImg();
+
+        // function showReadArticle() {
+        //     let articleOverlay = document.querySelector
+        //     let articles = document.querySelectorAll(".article");
+        //     for(let j=0; j < articles.length; j++) {
+        //         articles.onmouseover = function() {
+
+        //         }
+        //     }
+        // }
+
+
     </script>
 @endsection
 

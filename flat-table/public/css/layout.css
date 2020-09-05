@@ -496,6 +496,11 @@ em {
     width: 100%;
 }
 
+.collection .article figure .overlay:hover {
+    display: initial;
+    visibility: visible;
+}
+
 .collection .article figure .overlay p {
     /* font-family: "p22-underground",sans-serif; */
     font-size: 20px;
