@@ -478,7 +478,7 @@ em {
 }
 
 .collection .article:hover .article_content:before {
-    border-bottom: 7px solid rgba(190, 140, 41, 0.15);
+    border-bottom: 7px solid rgb(230, 210, 170);
     z-index: 550;
 }
 
