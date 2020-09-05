@@ -463,22 +463,22 @@
             let nextBtn = document.querySelector(".next_btn");
             // prevBtn.setAttribute("id", "0");
             // nextBtn.setAttribute("id", "0");
-            prevBtn.classList.add("0");
-            nextBtn.classList.add("0");
+            prevBtn.classList.add(slideImgSrc.length-1);
+            nextBtn.classList.add("1");
             for(let i = 0; i < slideImgSrc.length; i++) {
                 slideImgSrc[i].classList.add(i);
-                if(i>0) {
-                    prevBtn.classList.add(i-1);
-                } else {
-                    prevBtn.classList.add(slideImgSrc.length-1);
-                }
-                if(i<slideImgSrc.length) {
-                    nextBtn.classList.add(i+1);
-                } else {
-                    nextBtn.classList.add("0");
-                }
+                // if(i>0) {
+                //     prevBtn.classList.add(i-1);
+                // } else {
+                //     prevBtn.classList.add(slideImgSrc.length-1);
+                // }
+                // if(i<slideImgSrc.length) {
+                //     nextBtn.classList.add(i+1);
+                // } else {
+                //     nextBtn.classList.add("0");
+                // }
             }
-
+            introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
             prevBtn.onclick = function() {
                 showPrevImg(this.classList.item(1));
             }
@@ -490,10 +490,22 @@
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src.srcNumber");
                 introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
+                prevBtn.classList.remove(srcNumber);
+                if(srcNumber > 0) {
+                    prevBtn.classList.add(srcNumber-1);
+                } else {
+                    prevBtn.classList.add(slideImgSrc.length-1);
+                }
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src.srcNumber");
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
+                nextBtn.classList.remove(srcNumber);
+                if(srcNumber < slideImgSrc.length-1) {
+                    nextBtn.classList.add(srcNumber+1);
+                } else {
+                    nextBtn.classList.add("0");
+                }
             }
 
 
