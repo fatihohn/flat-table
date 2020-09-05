@@ -460,10 +460,10 @@
             let introSlide = document.querySelector(".intro_slide_img");
             let slideImgs = document.querySelectorAll(".slide_img_src");
             for(let i = 0; i < slideImgs.length; i++) {
-                slideImg[i].classList.add(i);
+                slideImgs[i].classList.add(i);
             }
         }
-
+        setIntroImg();
     </script>
 @endsection
 
