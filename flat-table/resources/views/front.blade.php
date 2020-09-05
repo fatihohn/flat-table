@@ -461,38 +461,38 @@
             let slideImgSrc = document.querySelectorAll(".slide_img_src");
             let prevBtn = document.querySelector(".prev_btn");
             let nextBtn = document.querySelector(".next_btn");
-            prevBtn.classlist.add("0");
-            nextBtn.classlist.add("0");
+            prevBtn.classList.add("0");
+            nextBtn.classList.add("0");
             for(let i = 0; i < slideImgSrc.length; i++) {
                 slideImgSrc[i].classList.add(i);
                 if(i>0) {
-                    prevBtn.classlist.add(i-1);
+                    prevBtn.classList.add(i-1);
                 } else {
-                    prevBtn.classlist.add(slideImgSrc.length-1);
+                    prevBtn.classList.add(slideImgSrc.length-1);
                 }
                 if(i<slideImgSrc.length) {
-                    nextBtn.classlist.add(i+1);
+                    nextBtn.classList.add(i+1);
                 } else {
-                    nextBtn.classlist.add("0");
+                    nextBtn.classList.add("0");
                 }
             }
 
-            // prevBtn.onclick = function() {
-            //     showPrevImg();
-            // }
-            // nextBtn.onclick = function() {
-            //     showNextImg();
-            // }
+            prevBtn.onclick = function() {
+                showPrevImg();
+            }
+            nextBtn.onclick = function() {
+                showNextImg();
+            }
 
 
-            // function showNextImg(srcNumber) {
-            //     let nextImg = document.querySelector(".slide_img_src.srcNumber");
-            //     introSlide.style.backgroundImage = url(nextImg.src);
-            // }
-            // function showPrevImg(srcNumber) {
-            //     let prevImg = document.querySelector(".slide_img_src.srcNumber");
-            //     introSlide.style.backgroundImage = url(prevImg.src);
-            // }
+            function showNextImg(srcNumber) {
+                let nextImg = document.querySelector(".slide_img_src.srcNumber");
+                introSlide.style.backgroundImage = url(nextImg.src);
+            }
+            function showPrevImg(srcNumber) {
+                let prevImg = document.querySelector(".slide_img_src.srcNumber");
+                introSlide.style.backgroundImage = url(prevImg.src);
+            }
 
 
         }
