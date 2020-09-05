@@ -480,10 +480,10 @@
             }
             introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
             prevBtn.onclick = function() {
-                showPrevImg(this.classList.item(1));
+                showPrevImg(this.classList.item(2));
             }
             nextBtn.onclick = function() {
-                showNextImg(this.classList.item(1));
+                showNextImg(this.classList.item(2));
             }
 
 
