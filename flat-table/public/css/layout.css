@@ -61,9 +61,10 @@ ul {
 .intro .intro_slide .intro_slide_img {
     height: 100%;
     width: 100%;
-    opacity: 0;
+    /* opacity: 0; */
+    background: #fff;
     background: center center / cover no-repeat;
-    transition: opacity 1000ms ease-in-out;
+    transition: background 1000ms ease-in-out;
     /* background-image: url('https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg'); */
 }
 
