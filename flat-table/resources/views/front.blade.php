@@ -7,9 +7,9 @@
         <div class="intro_slide">
             <!--대표 평상 이미지 목록-->
                 <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
-                    <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="">
-                    <img src="https://www.doongdoong.org/se2/upload/c_modify_20200706093011525244320FUN_4974_001.jpg" alt="">
-                    <img src="https://www.doongdoong.org/se2/upload/c_modify_20200706093043948349794IMG_0913.JPG" alt="">
+                    <img class="slide_img_src" src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="">
+                    <img class="slide_img_src" src="https://www.doongdoong.org/se2/upload/c_modify_20200706093011525244320FUN_4974_001.jpg" alt="">
+                    <img class="slide_img_src" src="https://www.doongdoong.org/se2/upload/c_modify_20200706093043948349794IMG_0913.JPG" alt="">
                 </div>
                 <!--대표 평상 이미지 목록 끝-->
             <div class="intro_slide_img"><!--배경 이미지 넣기-->
@@ -43,7 +43,7 @@
             <div class="col-2">
                 <h2>변방평상</h2>
                 <p>
-                    평상을 이용하는 사람들의 문화를 관찰합니다.<br> 
+                    평상을 이용하는 사람들의 문화를 관찰합니다.<br>
                     평상이 품은 역사와 특유의 문화를 배웁니다.
                 </p>
             </div>
@@ -113,7 +113,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -144,7 +144,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상. 자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -175,7 +175,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -206,7 +206,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -237,7 +237,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -268,7 +268,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -299,7 +299,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -330,7 +330,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -361,7 +361,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -392,7 +392,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -423,7 +423,7 @@
                                     </h1>
                                     <div class="article_comment">
                                         <p>
-                                            자전거 거치대를 개조해 만든 평상. 
+                                            자전거 거치대를 개조해 만든 평상.
                                         </p>
 
                                     </div>
@@ -458,7 +458,10 @@
 
         function setIntroImg() {
             let introSlide = document.querySelector(".intro_slide_img");
-            
+            let slideImgs = document.querySelectorAll(".slide_img_src");
+            for(let i = 0; i < slideImgs.length; i++) {
+                slideImg[i].classList.add(i);
+            }
         }
 
     </script>
