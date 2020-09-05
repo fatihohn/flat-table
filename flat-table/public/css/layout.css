@@ -336,11 +336,12 @@ em {
 .tagline h1 {
     font-size: 2.25rem;
     font-weight: 800;
+    color: #1a1a1a;
 }
 
 .tagline h2 {
     /* font-family: "p22-underground",sans-serif; */
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0 0 5px 0;
     text-transform: uppercase;
