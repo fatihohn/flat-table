@@ -587,7 +587,8 @@ em {
 }
 
 .collection .article .article_title .line {
-    border-bottom: 2px solid #c28c29
+    border-bottom: 2px solid #c28c29;
+    word-break: keep-all;
 }
 
 
