@@ -499,6 +499,7 @@ em {
 .collection .article figure .overlay:hover {
     display: initial;
     visibility: visible;
+    opacity: 1;
 }
 
 .collection .article figure .overlay p {
