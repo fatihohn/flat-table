@@ -487,11 +487,11 @@
 
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src.srcNumber");
-                introSlide.style.backgroundImage = url(nextImg.src);
+                introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src.srcNumber");
-                introSlide.style.backgroundImage = url(prevImg.src);
+                introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
             }
 
 
