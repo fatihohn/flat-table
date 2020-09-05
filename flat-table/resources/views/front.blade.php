@@ -92,6 +92,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -123,6 +130,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -154,6 +168,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -185,6 +206,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -216,6 +244,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -247,6 +282,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -278,6 +320,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -309,6 +358,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -340,6 +396,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -371,6 +434,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
@@ -402,6 +472,13 @@
                         <li>
                             <article class="article">
                                 <figure>
+                                    <a href="" class="overlay">
+                                        <div class="center">
+                                            <p>
+                                                평상 읽기
+                                            </p>
+                                        </div>
+                                    </a>
                                     <a href="">
                                         <img src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="" class="cover">
                                     </a>
