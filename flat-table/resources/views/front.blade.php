@@ -627,7 +627,7 @@
                 }
             }
         }
-
+        showReadArticle();
 
     </script>
 @endsection
