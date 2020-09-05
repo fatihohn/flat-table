@@ -554,7 +554,8 @@ em {
 .collection .article .article_content .article_comment>p {
     font-size: 14px;
     /* font-family: "p22-underground",sans-serif; */
-    line-height: 1.4;
+    /* line-height: 1.4; */
+    line-height: 1.8;
     /* overflow: hidden; */
     word-break: keep-all;
 }
