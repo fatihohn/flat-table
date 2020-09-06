@@ -58,7 +58,7 @@
     <script>
         let articleImgs = document.querySelectorAll(".article_pics figure");
         for(let m=0; m < articleImgs.length; m++) {
-            if(articleImgs[m].width > articleImgs[m].height) {
+            if(articleImgs[m].childNodes[0].width > articleImgs[m].childNodes[0].height) {
                 articleImgs[m].style.maxWidth = "100%";
             } else {
                 articleImgs[m].style.maxWidth = "48%";
