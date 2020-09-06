@@ -568,7 +568,7 @@
             setTimeout(function() {
                 showIntroTitle(slideImgSrc[0]);
             }, 800);
-            
+
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
             }
@@ -595,7 +595,10 @@
                     prevBtn.classList.add(parseInt(srcNumber)-1);
                     nextBtn.classList.add("0");
                 }
-                setTimeout(() => {
+                // setTimeout(() => {
+                //     showIntroTitle(nextImg);
+                // }, 800);
+                setTimeout(function() {
                     showIntroTitle(nextImg);
                 }, 800);
             }
@@ -622,10 +625,12 @@
                     prevBtn.classList.add(parseInt(srcNumber)-1);
                     nextBtn.classList.add("0");
                 }
-                setTimeout(() => {
+                // setTimeout(() => {
+                //     showIntroTitle(prevImg);
+                // }, 800);
+                setTimeout(function() {
                     showIntroTitle(prevImg);
                 }, 800);
-
 
             }
             
