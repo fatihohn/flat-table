@@ -954,7 +954,7 @@ em {
     .article_main .main .article_container .article_pics figure {
         display: none !important;
     }
-    .article_main .main .article_container .article_pics:first-child {
+    .article_main .main .article_container .article_pics figure:first-of-type {
         display: block !important;
     }
     .article_main .main .article_container .article_text {
