@@ -657,7 +657,11 @@ em {
     word-break: keep-all;
 }
 
+/*article-content*/
 
+.article_pics figure img {
+    width: 100%;
+}
 
 
 
