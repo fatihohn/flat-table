@@ -692,7 +692,7 @@ em {
     color: #c28c29;
     font-size: 14px;
     letter-spacing: .05em;
-    margin-right: 0 20px 0 0;
+    margin: 0 20px 0 0;
     font-weight: 600;
     text-transform: uppercase;
 }
