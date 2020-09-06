@@ -86,8 +86,8 @@
         let mobileImgs = document.querySelector(".article_pics_mobile");
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
-                    articleImgs[m].style.display = "initial";
-                    if(mobileImgs.figure) {
+                    articleImgs[m].style.display = "block";
+                    if(mobileImgs.childNodes.length > 0) {
                         mobileImgs.remove();
                     }
                     if(!mobileImgs) {
