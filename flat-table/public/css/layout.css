@@ -930,4 +930,49 @@ em {
         display: block;
         color: #1a1a1a;
     }
+
+    /*article-content*/
+    .article_main {
+        padding-top: 0;
+    }
+    .article_main .main .article_container {
+        display: block;
+    }
+    .article_main .main .article_container .article_header {
+        position: relative;
+        padding-bottom: 45px;
+    }
+    .article_main .main .article_container .article_header h2 {
+        font-size: 28px;
+    }
+    .article_main .main .article_container .article_pics {
+        position: relative;
+        top: 0;
+        padding: 0;
+    }
+    .article_main .main .article_container .article_pics figure {
+        display: none;
+    }
+    .article_main .main .article_container .article_pics:first-child {
+        display: block;
+    }
+    .article_main .main .article_container .article_text {
+        position: relative;
+        padding-left: 0;
+        padding-bottom: 100px;
+        height: 100%;
+        border: 0;
+    }
+    .article_main .main .article_container .article_text .article_auth p span {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
 }

@@ -20,7 +20,7 @@
                             경기도 동두천시 상봉암동 153-15
                         </p>
                     </div>
-                    <div class="thumb"></div>
+                    
                 </header>
                 <div class="article_pics">
                     <figure>
@@ -75,6 +75,7 @@
                         </div>
                     </footer>
                 </div>
+                <div class="article_pics_mobile"></div>
             </div>
         </div>
     </section>
