@@ -8,16 +8,16 @@
             <div class="article_container container">
                 <header class="article_header">
                     <h2>
-                        quae sequi aperiam
+                        성보주택 평상
                     </h2>
                     <div class="article_info">
                         <p class="category">
                             <a href="#">
-                                종류
+                                주민모임형
                             </a>
                         </p>
                         <p class="article_address">
-                            dolor sit amet consectetur adipisicing
+                            경기도 동두천시 상봉암동 153-15
                         </p>
                     </div>
                     <div class="thumb"></div>
