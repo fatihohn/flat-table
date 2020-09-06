@@ -83,7 +83,7 @@
     <script>
         function organizePics() {
         let articleImgs = document.querySelectorAll(".article_pics figure");
-        let articleImgs = document.querySelector(".article_pics_mobile");
+        // let articleImgs = document.querySelector(".article_pics_mobile");
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
