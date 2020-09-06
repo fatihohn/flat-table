@@ -163,10 +163,14 @@ ul {
     border: 2px solid #fff;
     color: #fff;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1;
-    padding: 13px 18px 10px 18px;
+    padding: 8px 18px 8px 18px;
     transition: opacity 1s 1.5s ease, background .7s, color .7s;
+}
+.intro .intro_slide .intro_slide_img .intro_slide_title .slide_enter:hover {
+    background: #fff;
+    color: #1a1a1a;
 }
 
 
