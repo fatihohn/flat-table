@@ -139,11 +139,11 @@
             // setTimeout(() => {
             //     organizePics();
             // }, 300);
-            // organizePics();
-
+            
             let picControl = setInterval(organizePics, 100);
             setTimeout(() => {
                 clearInterval(picControl);
+                organizePics();
             }, 500);
 
 
