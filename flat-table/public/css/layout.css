@@ -386,6 +386,11 @@ em {
     color: #1a1a1a;
 }
 
+/*articles*/
+.main .container .articles_header {
+    margin: 50px 0;
+}
+
 
 /*container_nav*/
 
@@ -591,10 +596,7 @@ em {
     word-break: keep-all;
 }
 
-/*articles*/
-.articles_header {
-    margin-top: 50px;
-}
+
 
 
 
