@@ -61,8 +61,10 @@
             for(let m=0; m < articleImgs.length; m++) {
                 if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                     articleImgs[m].style.maxWidth = "100%";
+                    articleImgs[m].style.margin = "10px 0";
                 } else {
                     articleImgs[m].style.maxWidth = "48%";
+                    articleImgs[m].style.margin = "10px 8px";
                     articleImgs[m].style.display = "inline-block";
                 }
                 
