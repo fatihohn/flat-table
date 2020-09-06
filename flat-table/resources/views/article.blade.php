@@ -83,13 +83,13 @@
     <script>
         function organizePics() {
         let articleImgs = document.querySelectorAll(".article_pics figure");
-        let mobileImgs = document.querySelectorAll(".article_pics_mobile");
+        let mobileImgs = document.querySelector(".article_pics_mobile");
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
                     articleImgs[m].style.display = "initial";
                     mobileImgs.remove();
                     let mobileImgDiv = document.createElement("div");
-                    mobileImgDiv.classname = "article_pics_mobile";
+                    mobileImgDiv.className = "article_pics_mobile";
                     document.querySelector("article_container").appendChild(mobileImgDiv);
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
