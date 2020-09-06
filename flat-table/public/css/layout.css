@@ -745,8 +745,15 @@ em {
         display: none;
     }
     .intro .intro_slide .intro_slide_img .intro_slide_title {
-        top: calc(100% - 240px);
+        top: calc(100% - 200px);
     }
+    .intro .intro_slide .intro_slide_img .intro_slide_title h1 {
+        font-size: 25px
+    }
+
+
+
+
     .tagline h1 {
         font-size: 1.8rem;
     }
