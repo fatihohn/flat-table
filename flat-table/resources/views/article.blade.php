@@ -140,7 +140,7 @@
 
 
         // if(window.innerWidth > 720) {
-            
+
             // setTimeout(() => {
             //     organizePics();
             // }, 300);
@@ -160,7 +160,12 @@
         // } else {
         //     organizePics();
         // }
-        window.addEventListener("resize", organizePics);
+        // window.addEventListener("resize", organizePics);
+        window.addEventListener("resize", function() {
+            setTimeout(function() {
+                organizePics();
+            }, 300);
+        });
 
     </script>
 
