@@ -19,6 +19,12 @@ Route::get('/', function () {
 Route::get('/articles', function () {
     return view('articles');
 });
+Route::get('/map', function () {
+    return view('map');
+});
+Route::get('/about', function () {
+    return view('about');
+});
 Route::get('/test', function () {
     return view('welcome');
 });

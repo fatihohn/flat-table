@@ -43,13 +43,13 @@
                 </li>
                 <li class="nav_item">
                     <mark>.02</mark>
-                    <a href="#">
+                    <a href="/map">
                         평상지도
                     </a>
                 </li>
                 <li class="nav_item">
                     <mark>.03</mark>
-                    <a href="#">
+                    <a href="/about">
                         평상으로부터
                     </a>
                 </li>
