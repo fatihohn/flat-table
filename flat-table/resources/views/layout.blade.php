@@ -37,7 +37,7 @@
             <ul class="nav_group">
                 <li class="nav_item">
                     <mark>.01</mark>
-                    <a href="/articles">
+                    <a href="/list">
                         평상들
                     </a>
                 </li>

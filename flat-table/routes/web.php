@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front');
 });
-Route::get('/articles', function () {
-    return view('articles');
+Route::get('/list', function () {
+    return view('list');
+});
+Route::get('/article', function () {
+    return view('article');
 });
 Route::get('/map', function () {
     return view('map');
