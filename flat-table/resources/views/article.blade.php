@@ -107,9 +107,11 @@
                 let mobileImgWrap = document.createElement("figure");
                 mobileImgWrap.className = "mobile_img";
                 mobileImgWrap.style.width = "100%";
+                mobileImgWrap.style.margin = "0";
                 document.querySelector(".article_pics_mobile").appendChild(mobileImgWrap);
                 let mobileImg = document.createElement("img");
                 mobileImg.src = imgUrl;
+                mobileImg.style.width = "100%";
                 mobileImgWrap.appendChild(mobileImg);
             }
 
