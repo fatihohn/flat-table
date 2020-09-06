@@ -568,6 +568,7 @@
             setTimeout(function() {
                 showIntroTitle(slideImgSrc[0]);
             }, 800);
+            
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
             }
