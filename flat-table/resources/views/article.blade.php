@@ -83,9 +83,15 @@
     <script>
         function organizePics() {
         let articleImgs = document.querySelectorAll(".article_pics figure");
-        // let articleImgs = document.querySelector(".article_pics_mobile");
+        let mobileImgs = document.querySelectorAll(".article_pics_mobile figure");
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
+                    articleImgs[m].style.display = "initial";
+                    while(mobileImgs.length > 0) {
+                        let n = 0;
+                        mobileImgs[n].remove();
+                        n++;
+                    }
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
                         articleImgs[m].style.margin = "10px 0.75%";
