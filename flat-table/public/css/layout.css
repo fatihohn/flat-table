@@ -733,6 +733,15 @@ em {
     height: 100%;
     border-left: 1px solid #D9D9D9;
 }
+.article_main .main .article_container .article_text .article_comment p,
+.article_main .main .article_container .article_text .article_cont p {
+    line-height: 1.4;
+    word-break: break-word;
+    font-size: 1.05rem;
+}
+.article_main .main .article_container .article_text .article_comment p {
+    font-style: italic;
+}
 .article_main .main .article_container .article_cont {
     border-bottom: 1px solid #D9D9D9;
     margin-bottom: 30px;
