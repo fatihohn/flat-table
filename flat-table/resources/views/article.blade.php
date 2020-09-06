@@ -82,23 +82,48 @@
 
     <script>
         function organizePics() {
-            let articleImgs = document.querySelectorAll(".article_pics figure");
+        let articleImgs = document.querySelectorAll(".article_pics figure");
+        let articleImgs = document.querySelector(".article_pics_mobile");
             for(let m=0; m < articleImgs.length; m++) {
-                if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
-                    articleImgs[m].style.maxWidth = "96.5%";
-                    articleImgs[m].style.margin = "10px 0.75%";
+                if(window.innerWidth > 720) {
+                    if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
+                        articleImgs[m].style.maxWidth = "96.5%";
+                        articleImgs[m].style.margin = "10px 0.75%";
+                    } else {
+                        articleImgs[m].style.maxWidth = "47.5%";
+                        articleImgs[m].style.margin = "10px 0.5%";
+                        articleImgs[m].style.display = "inline-flex";
+                    }
                 } else {
-                    articleImgs[m].style.maxWidth = "47.5%";
-                    articleImgs[m].style.margin = "10px 0.5%";
-                    articleImgs[m].style.display = "inline-flex";
+                    if(m > 0) {
+                        replaceImg(articleImgs[m]);
+                    }
                 }
                 
             }
+
+            function replaceImg(imgSrc) {
+                let imgUrl = imgSrc.childNode[1].src;
+                let mobileImgWrap = document.createElement("figure");
+                mobileImgWrap.className = "mobile_img";
+                mobileImgWrap.style.width = "100%";
+                document.querySelector(".article_pics_mobile").appendChild(mobileImgWrap);
+                let mobileImg = document.createElement("img");
+                mobileImg.src = imgUrl;
+                mobileImgWrap.appendChild(mobileImg);
+            }
+
+
+
         }
+
+
         if(window.innerWidth > 720) {
             setTimeout(() => {
                 organizePics();
             }, 300);
+            organizePics();
+        } else {
             organizePics();
         }
 
