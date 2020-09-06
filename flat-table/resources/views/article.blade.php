@@ -91,8 +91,8 @@
                     if(!mobileImgs) {
                         let mobileImgDiv = document.createElement("div");
                         mobileImgDiv.className = "article_pics_mobile";
+                        document.querySelector("article_container").appendChild(mobileImgDiv);
                     }
-                    document.querySelector("article_container").appendChild(mobileImgDiv);
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
                         articleImgs[m].style.margin = "10px 0.75%";
