@@ -575,8 +575,10 @@
             nextBtn.onclick = function() {
                 showNextImg(nextBtn.classList.item(2));
             }
-            setTimeout(function() {
-                showNextImg(nextBtn.classList.item(2));
+            setInterval(function() {
+                setTimeout(function() {
+                    showNextImg(nextBtn.classList.item(2));
+                }, 800);
             }, 10000);
 
             function showNextImg(srcNumber) {
