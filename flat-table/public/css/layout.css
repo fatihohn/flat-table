@@ -140,7 +140,6 @@ ul {
     max-width: 500px;
 }
 .intro .intro_slide .intro_slide_img .intro_slide_title h1 {
-    color: #fff;
     font-size: 48px;
     font-weight: 800;
     line-height: 1.2;
@@ -150,6 +149,9 @@ ul {
     margin: 0 0 25px 0;
     transition: -webkit-transform 1s .2s ease, opacity 1s .2s ease;
     transition: transform 1s .2s ease, opacity 1s .2s ease;
+}
+.intro .intro_slide .intro_slide_img .intro_slide_title h1 a {
+    color: #fff;
 }
 
 .intro .intro_slide .intro_slide_img .intro_slide_title.active h1 {
