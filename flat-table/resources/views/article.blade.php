@@ -97,6 +97,8 @@
         setTimeout(() => {
             organizePics();
         }, 300);
+        organizePics();
+
     </script>
 
 @endsection

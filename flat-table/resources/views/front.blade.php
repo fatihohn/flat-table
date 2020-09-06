@@ -7,7 +7,7 @@
         <div class="intro_slide">
             <!--대표 평상 이미지 목록-->
                 <div class="intro_slide_imgs" style="visibility:hidden; height:0;">
-                    <img class="slide_img_src" title="평상 일러스트 넣고 싶다" src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="">
+                    <img class="slide_img_src" title="성보주택 평상" src="https://www.doongdoong.org/uploads/thumbs/1593343384.jpeg" alt="">
                     <img class="slide_img_src" title="못골 고개에는 평상이 없다" src="https://www.doongdoong.org/se2/upload/c_modify_20200706093011525244320FUN_4974_001.jpg" alt="">
                     <img class="slide_img_src" title="우물물은 시원하다" src="https://www.doongdoong.org/se2/upload/c_modify_20200706093043948349794IMG_0913.JPG" alt="">
                 </div>
