@@ -153,7 +153,7 @@
             setTimeout(function() {
                 organizePics();
             }, 300);
-            // organizePics();
+            organizePics();
             
             // let picControl = setInterval(organizePics, 200);
             // setTimeout(() => {
@@ -166,23 +166,23 @@
         // } else {
         //     organizePics();
         // }
-        window.addEventListener("resize", organizePics);
-        // window.addEventListener("resize", function() {
-        //     // setTimeout(function() {
-        //     //     if(window.innerWidth > 720) {
-        //     //         let picControl = setInterval(organizePics, 200);
-        //     //         setTimeout(() => {
-        //     //             clearInterval(picControl);
-        //     //             organizePics();
-        //     //         }, 200);
-        //     //     } else {
-        //     //         organizePics();
-        //     //     }
-        //     // }, 300);
-        //     // setTimeout(function() {
-        //     //     organizePics();
-        //     // }, 300);
-        // });
+        // window.addEventListener("resize", organizePics);
+        window.addEventListener("resize", function() {
+            setTimeout(function() {
+                if(window.innerWidth > 720) {
+                    let picControl = setInterval(organizePics, 200);
+                    setTimeout(() => {
+                        clearInterval(picControl);
+                        organizePics();
+                    }, 200);
+                } else {
+                    organizePics();
+                }
+            }, 300);
+            // setTimeout(function() {
+            //     organizePics();
+            // }, 300);
+        });
 
     </script>
 
