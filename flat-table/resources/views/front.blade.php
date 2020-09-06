@@ -588,7 +588,9 @@
                     prevBtn.classList.add(parseInt(srcNumber)-1);
                     nextBtn.classList.add("0");
                 }
-                showIntroTitle(nextImg);
+                setTimeout(() => {
+                    showIntroTitle(nextImg);
+                }, 300ms);
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
@@ -613,8 +615,9 @@
                     prevBtn.classList.add(parseInt(srcNumber)-1);
                     nextBtn.classList.add("0");
                 }
-
-                showIntroTitle(prevImg);
+                setTimeout(() => {
+                    showIntroTitle(prevImg);
+                }, 300ms);
 
 
             }
