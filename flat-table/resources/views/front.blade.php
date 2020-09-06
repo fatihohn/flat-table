@@ -564,7 +564,7 @@
             setTimeout(() => {
                 showIntroTitle(slideImgSrc[0]);
                 
-            }, 1000);
+            }, 800);
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
             }
@@ -593,7 +593,7 @@
                 }
                 setTimeout(() => {
                     showIntroTitle(nextImg);
-                }, 1000);
+                }, 800);
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
@@ -620,7 +620,7 @@
                 }
                 setTimeout(() => {
                     showIntroTitle(prevImg);
-                }, 1000);
+                }, 800);
 
 
             }
