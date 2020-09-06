@@ -175,9 +175,10 @@
             //         organizePics();
             //     }
             // }, 300);
-            setTimeout(function() {
+            // setTimeout(function() {
+            //     organizePics();
+            // }, 300);
                 organizePics();
-            }, 300);
         });
 
     </script>
