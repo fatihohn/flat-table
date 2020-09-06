@@ -669,6 +669,7 @@ em {
 .article_main .main .article_container {
     display: flex;
     padding-bottom: 200px;
+    max-width: 1120px;
 }
 .article_main .main .article_container .article_header {
     flex: 0;
