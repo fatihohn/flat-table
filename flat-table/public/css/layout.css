@@ -678,6 +678,7 @@ em {
 .article_main .main .article_container .article_header h2 {
     font-size: 38px;
     margin-bottom: 25px;
+    color: #1a1a1a;
 }
 .article_main .main .article_container .article_header .article_info {
     -webkit-box-align: center;
@@ -738,6 +739,7 @@ em {
     line-height: 1.4;
     word-break: break-word;
     font-size: 1.05rem;
+    color: #1a1a1a;
 }
 .article_main .main .article_container .article_text .article_comment p {
     font-style: italic;
