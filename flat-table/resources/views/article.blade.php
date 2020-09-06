@@ -87,7 +87,9 @@
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
                     articleImgs[m].style.display = "initial";
-                    mobileImgs.remove();
+                    if(mobileImgs.figure) {
+                        mobileImgs.remove();
+                    }
                     if(!mobileImgs) {
                         let mobileImgDiv = document.createElement("div");
                         mobileImgDiv.className = "article_pics_mobile";
