@@ -86,12 +86,13 @@
         let mobileImgs = document.querySelector(".article_pics_mobile");
             for(let m=0; m < articleImgs.length; m++) {
                 if(window.innerWidth > 720) {
-                    articleImgs[m].style.display = "block";
                     if(mobileImgs.childNodes.length > 0) {
                         for(let n=0; n < mobileImgs.childNodes.length; n++) {
                             mobileImgs.childNodes[n].remove();
                         }
                     }
+                    articleImgs[m].style.display = "block";
+                    articleImgs[m].childNodes[1].style.width = "100%";
                     
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
