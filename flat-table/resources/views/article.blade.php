@@ -116,7 +116,7 @@
                     //     mobileImgDiv.className = "article_pics_mobile";
                     //     document.querySelector("article_container").appendChild(mobileImgDiv);
                     // }
-                    if(m > 0 && document.querySelector(".article_pics_mobile").childNodes.length < document.querySelectorAll(".article_pics").length - 1) {
+                    if(m > 0 && document.querySelector(".article_pics_mobile").childNodes.length < document.querySelector(".article_pics").childNoces.length - 1) {
                         replaceImg(articleImgs[m]);
                     }
                 }
