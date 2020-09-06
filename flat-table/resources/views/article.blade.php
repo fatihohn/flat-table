@@ -139,6 +139,7 @@
             setTimeout(() => {
                 organizePics();
             }, 300);
+            organizePics();
         // } else {
         //     organizePics();
         // }
