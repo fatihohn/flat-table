@@ -146,10 +146,14 @@
             // setTimeout(() => {
             //     organizePics();
             // }, 300);
+
+
+
+
             setTimeout(function() {
                 organizePics();
             }, 300);
-            // organizePics();
+            organizePics();
             
             // let picControl = setInterval(organizePics, 200);
             // setTimeout(() => {
