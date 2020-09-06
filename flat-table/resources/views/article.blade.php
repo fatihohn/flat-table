@@ -135,11 +135,18 @@
 
 
         // if(window.innerWidth > 720) {
-            organizePics();
+            // organizePics();
+            // setTimeout(() => {
+            //     organizePics();
+            // }, 300);
+            // organizePics();
+
+            let picControl = setInterval(organizePics, 100);
             setTimeout(() => {
-                organizePics();
-            }, 300);
-            organizePics();
+                clearInterval(picControl);
+            }, 500);
+
+
         // } else {
         //     organizePics();
         // }
