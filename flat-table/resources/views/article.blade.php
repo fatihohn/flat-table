@@ -134,14 +134,14 @@
         }
 
 
-        if(window.innerWidth > 720) {
+        // if(window.innerWidth > 720) {
             setTimeout(() => {
                 organizePics();
             }, 300);
             organizePics();
-        } else {
-            organizePics();
-        }
+        // } else {
+        //     organizePics();
+        // }
         window.addEventListener("resize", organizePics);
 
     </script>
