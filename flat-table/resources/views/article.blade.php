@@ -170,7 +170,7 @@
                     setTimeout(() => {
                         clearInterval(picControl);
                         organizePics();
-                    }, 1000);
+                    }, 200);
                 } else {
                     organizePics();
                 }
