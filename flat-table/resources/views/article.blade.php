@@ -95,10 +95,12 @@
                 
             }
         }
-        setTimeout(() => {
+        if(window.innerWidth > 720) {
+            setTimeout(() => {
+                organizePics();
+            }, 300);
             organizePics();
-        }, 300);
-        organizePics();
+        }
 
     </script>
 

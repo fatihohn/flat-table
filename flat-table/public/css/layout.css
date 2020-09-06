@@ -937,6 +937,7 @@ em {
     }
     .article_main .main .article_container {
         display: block;
+        padding-bottom: 0;
     }
     .article_main .main .article_container .article_header {
         position: relative;
@@ -951,10 +952,10 @@ em {
         padding: 0;
     }
     .article_main .main .article_container .article_pics figure {
-        display: none;
+        display: none !important;
     }
     .article_main .main .article_container .article_pics:first-child {
-        display: block;
+        display: block !important;
     }
     .article_main .main .article_container .article_text {
         position: relative;
