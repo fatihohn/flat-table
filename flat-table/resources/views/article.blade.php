@@ -103,7 +103,7 @@
             }
 
             function replaceImg(imgSrc) {
-                let imgUrl = imgSrc.childNode[1].src;
+                let imgUrl = imgSrc.childNodes[1].src;
                 let mobileImgWrap = document.createElement("figure");
                 mobileImgWrap.className = "mobile_img";
                 mobileImgWrap.style.width = "100%";
