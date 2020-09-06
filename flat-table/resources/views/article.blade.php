@@ -128,7 +128,7 @@
         } else {
             organizePics();
         }
-
+        window.addEventListener("resize", organizePics);
 
     </script>
 
