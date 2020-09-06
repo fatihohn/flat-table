@@ -751,7 +751,7 @@ em {
     justify-content: flex-start;
 }
 .article_main .main .article_container .article_text .article_auth p {
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
     letter-spacing: .02em;
 }
@@ -761,15 +761,16 @@ em {
 .article_main .main .article_container .article_text .article_auth p span {
     /* font-family: "p22-underground",sans-serif; */
     font-style: normal;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: .08em;
 }
 
 .article_main .main .article_container .article_text .article_share span {
     font-size: 13px;
-    font-family: "p22-underground",sans-serif;
+    /* font-family: "p22-underground",sans-serif; */
     letter-spacing: .08em;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .article_main .main .article_container .article_text .article_share a {
@@ -777,6 +778,7 @@ em {
     color: #1a1a1a;
     font-size: 14px;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 
