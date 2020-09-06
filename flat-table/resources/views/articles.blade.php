@@ -8,7 +8,7 @@
     <section class="front_main">
         <div class="main">
             <div class="container group">
-                <header class="container_header">
+                <header class="container_header articles_header">
                     <img src="/img/flat_table_icon.svg" alt="flat_table_icon">
                     <h1>평상들</h1>
                 </header>
