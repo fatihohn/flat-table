@@ -135,10 +135,10 @@
 
 
         // if(window.innerWidth > 720) {
-            // setTimeout(() => {
-            //     organizePics();
-            // }, 300);
             organizePics();
+            setTimeout(() => {
+                organizePics();
+            }, 300);
         // } else {
         //     organizePics();
         // }
