@@ -60,11 +60,11 @@
             let articleImgs = document.querySelectorAll(".article_pics figure");
             for(let m=0; m < articleImgs.length; m++) {
                 if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
-                    articleImgs[m].style.maxWidth = "100%";
-                    articleImgs[m].style.margin = "10px 0";
+                    articleImgs[m].style.maxWidth = "98%";
+                    articleImgs[m].style.margin = "10px 1%";
                 } else {
                     articleImgs[m].style.maxWidth = "48%";
-                    articleImgs[m].style.margin = "10px 8px";
+                    articleImgs[m].style.margin = "10px 1%";
                     articleImgs[m].style.display = "inline-block";
                 }
                 
