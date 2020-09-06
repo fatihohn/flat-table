@@ -116,7 +116,7 @@
                     //     mobileImgDiv.className = "article_pics_mobile";
                     //     document.querySelector("article_container").appendChild(mobileImgDiv);
                     // }
-                    if(m > 0) {
+                    if(m > 0 && m < mobileImgs.childNodes.length) {
                         replaceImg(articleImgs[m]);
                     }
                 }
@@ -153,7 +153,7 @@
             setTimeout(function() {
                 organizePics();
             }, 300);
-            organizePics();
+            // organizePics();
             
             // let picControl = setInterval(organizePics, 200);
             // setTimeout(() => {
