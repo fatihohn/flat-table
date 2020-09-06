@@ -561,9 +561,12 @@
             }
 
             introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
-            setTimeout(() => {
-                showIntroTitle(slideImgSrc[0]);
+            // setTimeout(() => {
+            //     showIntroTitle(slideImgSrc[0]);
                 
+            // }, 800);
+            setTimeout(function() {
+                showIntroTitle(slideImgSrc[0]);
             }, 800);
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
