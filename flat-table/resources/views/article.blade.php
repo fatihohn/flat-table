@@ -142,7 +142,7 @@
             setTimeout(() => {
                 organizePics();
             }, 300);
-            organizePics();
+            // organizePics();
             
             // let picControl = setInterval(organizePics, 200);
             // setTimeout(() => {
