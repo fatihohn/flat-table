@@ -56,12 +56,13 @@
     </section>
 
     <script>
-        let articleImgs = document.querySelectorAll(".article_pics figure img");
+        let articleImgs = document.querySelectorAll(".article_pics figure");
         for(let m=0; m < articleImgs.length; m++) {
             if(articleImgs[m].width > articleImgs[m].height) {
                 articleImgs[m].style.maxWidth = "100%";
             } else {
                 articleImgs[m].style.maxWidth = "48%";
+                articleImgs[m].style.display = "inline-block";
             }
             
         }
