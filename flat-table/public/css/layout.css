@@ -152,6 +152,7 @@ ul {
 }
 .intro .intro_slide .intro_slide_img .intro_slide_title h1 a {
     color: #fff;
+    white-space: nowrap;
 }
 
 .intro .intro_slide .intro_slide_img .intro_slide_title.active h1 {
