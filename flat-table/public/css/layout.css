@@ -133,11 +133,11 @@ ul {
 }
 
 .intro .intro_slide .intro_slide_img .intro_slide_title {
-    margin: 0 auto;
-    max-width: 500px;
     position: relative;
+    margin: 0 auto;
+    top: calc(100% - 300px);
     text-align: center;
-    top: 65%;
+    max-width: 500px;
 }
 .intro .intro_slide .intro_slide_img .intro_slide_title h1 {
     color: #fff;
@@ -737,9 +737,9 @@ em {
     .intro .intro_slide .intro_slide_btn {
         display: none;
     }
-    .intro .intro_slide .intro_slide_img .intro_slide_title {
+    /* .intro .intro_slide .intro_slide_img .intro_slide_title {
         top: 50%;
-    }
+    } */
     .tagline h1 {
         font-size: 1.8rem;
     }
