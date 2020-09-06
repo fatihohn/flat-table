@@ -737,9 +737,9 @@ em {
     .intro .intro_slide .intro_slide_btn {
         display: none;
     }
-    /* .intro .intro_slide .intro_slide_img .intro_slide_title {
-        top: 50%;
-    } */
+    .intro .intro_slide .intro_slide_img .intro_slide_title {
+        top: calc(100% - 240px);
+    }
     .tagline h1 {
         font-size: 1.8rem;
     }
