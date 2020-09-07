@@ -137,11 +137,6 @@
                         articleImgs[m].style.display = "inline-flex";
                     }
                 } else if(window.innerWidth <= 1080 && window.innerWidth >= 720) {
-                    if(mobileImgs.childNodes.length > 0) {
-                        for(let n=0; n < mobileImgs.childNodes.length; n++) {
-                            mobileImgs.childNodes[n].remove();
-                        }
-                    }
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
 
@@ -162,11 +157,6 @@
                     }
                     
                 } else if(window.innerWidth < 720) {
-                    if(mobileImgs.childNodes.length > 0) {
-                        for(let n=0; n < mobileImgs.childNodes.length; n++) {
-                            mobileImgs.childNodes[n].remove();
-                        }
-                    }
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
                     }
