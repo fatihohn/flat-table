@@ -458,6 +458,10 @@ em {
     padding: 50px 0;
     background: #edecec;
 }
+.about_main .about_pics {
+    flex: 0.75;
+    top: 0;
+}
 
 
 
