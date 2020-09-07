@@ -204,6 +204,7 @@
                         clearInterval(picControl);
                         organizePics();
                     }, 200);
+                    organizePics();
                 // } else {
                 //     organizePics();
                 // }
