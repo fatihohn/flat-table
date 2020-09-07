@@ -198,15 +198,15 @@
             
         window.addEventListener("resize", function() {
             setTimeout(function() {
-                if(window.innerWidth > 720) {
+                // if(window.innerWidth > 720) {
                     let picControl = setInterval(organizePics, 200);
                     setTimeout(() => {
                         clearInterval(picControl);
                         organizePics();
                     }, 200);
-                } else {
-                    organizePics();
-                }
+                // } else {
+                //     organizePics();
+                // }
             }, 300);
         });
 
