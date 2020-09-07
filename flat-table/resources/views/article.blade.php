@@ -141,18 +141,18 @@
                         replaceImg(articleImgs[m]);
 
                         if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
-                            document.querySelctorAll(".mobile_img")[m-1].style.maxWidth = "96.5%";
-                            document.querySelctorAll(".mobile_img")[m-1].style.height = "auto";
-                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
-                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
-                            document.querySelctorAll(".mobile_img")[m-1].style.margin = "10px 0.75%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "96.5%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
+                            document.querySelectorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
+                            document.querySelectorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.margin = "10px 0.75%";
                         } else {
-                            document.querySelctorAll(".mobile_img")[m-1].style.maxWidth = "47.5%";
-                            document.querySelctorAll(".mobile_img")[m-1].style.height = "auto";
-                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
-                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
-                            document.querySelctorAll(".mobile_img")[m-1].style.margin = "10px 0.5%";
-                            document.querySelctorAll(".mobile_img")[m-1].style.display = "inline-flex";
+                            document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "47.5%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
+                            document.querySelectorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
+                            document.querySelectorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.margin = "10px 0.5%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.display = "inline-flex";
                         }
                     }
                     
