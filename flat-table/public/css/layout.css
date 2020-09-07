@@ -452,16 +452,6 @@ em {
 .main .container .articles_header {
     margin: 50px 0;
 }
-/*about*/
-.about_main .articles_header {
-    margin: 0;
-    padding: 50px 0;
-    background: #edecec;
-}
-.about_main .about_pics {
-    flex: 0.75;
-    top: 0;
-}
 
 
 
@@ -811,6 +801,16 @@ em {
 }
 
 
+/*about*/
+.about_main .articles_header {
+    margin: 0;
+    padding: 50px 0;
+    background: #edecec;
+}
+.about_main .about_pics {
+    flex: 0.75;
+    top: 0;
+}
 
 
 
