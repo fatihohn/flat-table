@@ -43,8 +43,9 @@
                     <footer class="article_footer">
                         <div class="article_auth">
                             <p>
+                                변방평상
                                 <span>
-                                    변방둥둥
+                                    박상환, 온동훈, 이경렬    
                                 </span>
                             </p>
                         </div>
