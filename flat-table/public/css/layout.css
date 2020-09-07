@@ -933,6 +933,7 @@ em {
         margin: 0 0 20px 0;
     }
     .article_main .main .article_container .article_pics_mobile figure img {
+        max-width: 100% !important;
         width: 100%;
     }
 
