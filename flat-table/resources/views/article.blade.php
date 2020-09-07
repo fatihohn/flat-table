@@ -140,8 +140,9 @@
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
 
-                        if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
+                        if(articleImgs[m].childNodes[1].width >= articleImgs[m].childNodes[1].height) {
                             document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "96.5%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.width = "96.5%";
                             document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
                             document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.width = "100%";
                             document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.height = "auto";
