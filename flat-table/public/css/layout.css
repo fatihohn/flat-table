@@ -929,6 +929,7 @@ em {
 
     .article_main .main .article_container .article_pics_mobile figure {
         display: block !important;
+        max-width: 100%;
         width: 100%;
         margin: 0 0 20px 0;
     }
