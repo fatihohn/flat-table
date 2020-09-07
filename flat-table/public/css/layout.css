@@ -927,6 +927,14 @@ em {
         font-size: 25px
     }
 
+    .article_main .main .article_container .article_pics_mobile figure {
+        display: block !important;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .article_main .main .article_container .article_pics_mobile figure img {
+        width: 100%;
+    }
 
 
 
