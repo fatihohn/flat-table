@@ -41,14 +41,14 @@
                         평상들
                     </a>
                 </li>
-                <li class="nav_item">
+                <!-- <li class="nav_item">
                     <mark>.02</mark>
                     <a href="/map">
                         평상지도
                     </a>
-                </li>
+                </li> -->
                 <li class="nav_item">
-                    <mark>.03</mark>
+                    <mark>.02</mark>
                     <a href="/about">
                         평상으로부터
                     </a>
