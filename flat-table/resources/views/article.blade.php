@@ -145,7 +145,7 @@
                             document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
                             document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.width = "100%";
                             document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.height = "auto";
-                            document.querySelectorAll(".mobile_img")[m-1].style.margin = "10px 0.75%";
+                            document.querySelectorAll(".mobile_img")[m-1].style.margin = "10px 0.25%";
                         } else {
                             document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "47.5%";
                             document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
