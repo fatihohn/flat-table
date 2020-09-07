@@ -159,6 +159,14 @@
                 } else if(window.innerWidth < 720) {
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
+
+                        document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "100%";
+                        document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
+                        document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.height = "auto";
+                        document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.width = "100%";
+                        document.querySelectorAll(".mobile_img")[m-1].style.margin = "0 0 20px 0";
+                        document.querySelectorAll(".mobile_img")[m-1].style.display = "block";
+                        
                     }
                 }
                 
