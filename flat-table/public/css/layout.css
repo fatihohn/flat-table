@@ -453,6 +453,11 @@ em {
 .about_main .articles_header {
     margin: 50px 0;
 }
+/*about*/
+.about_main .articles_header {
+    background: #edecec;
+}
+
 
 
 /*container_nav*/
