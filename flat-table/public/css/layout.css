@@ -808,8 +808,8 @@ em {
     background: #edecec;
 }
 .about_main .about_pics {
-    flex: 0.75;
-    top: 0;
+    flex: 0.75 !important;
+    top: 0 !important;
 }
 
 
