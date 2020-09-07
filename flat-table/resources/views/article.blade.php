@@ -87,14 +87,40 @@
             for(let m=0; m < articleImgs.length; m++) {
                 articleImgs[m].style.display = "block";
                 articleImgs[m].childNodes[1].style.width = "100%";
-                if(window.innerWidth > 720) {
+                // if(window.innerWidth > 720) {
+                //     if(mobileImgs.childNodes.length > 0) {
+                //         for(let n=0; n < mobileImgs.childNodes.length; n++) {
+                //             mobileImgs.childNodes[n].remove();
+                //         }
+                //     }
+                    
+                //     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
+                //         articleImgs[m].style.maxWidth = "96.5%";
+                //         articleImgs[m].style.height = "auto";
+                //         articleImgs[m].childNodes[1].style.height = "auto";
+                //         articleImgs[m].childNodes[1].style.width = "100%";
+                //         articleImgs[m].style.margin = "10px 0.75%";
+                //     } else {
+                //         articleImgs[m].style.maxWidth = "47.5%";
+                //         articleImgs[m].style.height = "auto";
+                //         articleImgs[m].childNodes[1].style.height = "auto";
+                //         articleImgs[m].childNodes[1].style.width = "100%";
+                //         articleImgs[m].style.margin = "10px 0.5%";
+                //         articleImgs[m].style.display = "inline-flex";
+                //     }
+                // } else {
+                //     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
+                //         replaceImg(articleImgs[m]);
+                //     }
+                // }
+
+
+                if(window.innerWidth > 1080) {
                     if(mobileImgs.childNodes.length > 0) {
                         for(let n=0; n < mobileImgs.childNodes.length; n++) {
                             mobileImgs.childNodes[n].remove();
                         }
                     }
-                    // articleImgs[m].style.display = "block";
-                    // articleImgs[m].childNodes[1].style.width = "100%";
                     
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
@@ -110,12 +136,27 @@
                         articleImgs[m].style.margin = "10px 0.5%";
                         articleImgs[m].style.display = "inline-flex";
                     }
-                } else {
-                    // if(!mobileImgs) {
-                    //     let mobileImgDiv = document.createElement("div");
-                    //     mobileImgDiv.className = "article_pics_mobile";
-                    //     document.querySelector("article_container").appendChild(mobileImgDiv);
-                    // }
+                } else if(window.innerWidth <= 1080 && window.innerWidth >= 720) {
+                    if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
+                        replaceImg(articleImgs[m]);
+
+                        if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
+                            document.querySelctorAll(".mobile_img")[m-1].style.maxWidth = "96.5%";
+                            document.querySelctorAll(".mobile_img")[m-1].style.height = "auto";
+                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
+                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
+                            document.querySelctorAll(".mobile_img")[m-1].style.margin = "10px 0.75%";
+                        } else {
+                            document.querySelctorAll(".mobile_img")[m-1].style.maxWidth = "47.5%";
+                            document.querySelctorAll(".mobile_img")[m-1].style.height = "auto";
+                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.height = "auto";
+                            document.querySelctorAll(".mobile_img")[m-1].childNodes[1].style.width = "100%";
+                            document.querySelctorAll(".mobile_img")[m-1].style.margin = "10px 0.5%";
+                            document.querySelctorAll(".mobile_img")[m-1].style.display = "inline-flex";
+                        }
+                    }
+                    
+                } else if(window.innerWidth < 720) {
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
                     }
@@ -141,32 +182,12 @@
         }
 
 
-        // if(window.innerWidth > 720) {
-
-            // setTimeout(() => {
-            //     organizePics();
-            // }, 300);
-
-
-
 
             setTimeout(function() {
                 organizePics();
             }, 300);
             organizePics();
             
-            // let picControl = setInterval(organizePics, 200);
-            // setTimeout(() => {
-            //     clearInterval(picControl);
-            //     organizePics();
-            // }, 1000);
-            // organizePics();
-
-
-        // } else {
-        //     organizePics();
-        // }
-        // window.addEventListener("resize", organizePics);
         window.addEventListener("resize", function() {
             setTimeout(function() {
                 if(window.innerWidth > 720) {
@@ -179,9 +200,6 @@
                     organizePics();
                 }
             }, 300);
-            // setTimeout(function() {
-            //     organizePics();
-            // }, 300);
         });
 
     </script>
