@@ -579,7 +579,7 @@
                 setTimeout(function() {
                     showNextImg(nextBtn.classList.item(2));
                 }, 800);
-            }, 10000);
+            }, 20000);
 
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
