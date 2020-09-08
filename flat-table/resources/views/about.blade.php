@@ -63,32 +63,6 @@
             for(let m=0; m < articleImgs.length; m++) {
                 articleImgs[m].style.display = "block";
                 articleImgs[m].childNodes[1].style.width = "100%";
-                // if(window.innerWidth > 720) {
-                //     if(mobileImgs.childNodes.length > 0) {
-                //         for(let n=0; n < mobileImgs.childNodes.length; n++) {
-                //             mobileImgs.childNodes[n].remove();
-                //         }
-                //     }
-                    
-                //     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
-                //         articleImgs[m].style.maxWidth = "96.5%";
-                //         articleImgs[m].style.height = "auto";
-                //         articleImgs[m].childNodes[1].style.height = "auto";
-                //         articleImgs[m].childNodes[1].style.width = "100%";
-                //         articleImgs[m].style.margin = "10px 0.75%";
-                //     } else {
-                //         articleImgs[m].style.maxWidth = "47.5%";
-                //         articleImgs[m].style.height = "auto";
-                //         articleImgs[m].childNodes[1].style.height = "auto";
-                //         articleImgs[m].childNodes[1].style.width = "100%";
-                //         articleImgs[m].style.margin = "10px 0.5%";
-                //         articleImgs[m].style.display = "inline-flex";
-                //     }
-                // } else {
-                //     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
-                //         replaceImg(articleImgs[m]);
-                //     }
-                // }
 
 
                 if(window.innerWidth > 1080) {
@@ -168,21 +142,20 @@
         }
 
 
+        let picControl = setInterval(organizePics, 200);
 
-            setTimeout(function() {
-                organizePics();
-            }, 300);
+        organizePics();
+        setTimeout(function() {
             organizePics();
+        }, 300);
             
         window.addEventListener("resize", function() {
             setTimeout(function() {
                 if(window.innerWidth > 1080) {
-                    let picControl = setInterval(organizePics, 200);
                     setTimeout(() => {
                         clearInterval(picControl);
                         organizePics();
                     }, 200);
-                    // organizePics();
                 } else {
                     organizePics();
                 }
