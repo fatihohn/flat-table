@@ -962,6 +962,13 @@ em {
         width: 100% !important;
     }
 
+/*about*/
+    .about_main .articles_header {
+        margin-top: 50px;
+        padding: 20px 0;
+    }
+
+
 
 
     .tagline h1 {
