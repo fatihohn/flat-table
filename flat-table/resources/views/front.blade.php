@@ -567,7 +567,7 @@
             // }, 800);
             setTimeout(function() {
                 showIntroTitle(slideImgSrc[0]);
-            }, 800);
+            }, 600);
 
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
@@ -578,7 +578,7 @@
             setInterval(function() {
                 setTimeout(function() {
                     showNextImg(nextBtn.classList.item(2));
-                }, 800);
+                }, 600);
             }, 20000);
 
             function showNextImg(srcNumber) {
@@ -604,18 +604,13 @@
                 // }, 800);
                 setTimeout(function() {
                     showIntroTitle(nextImg);
-                }, 800);
+                }, 600);
             }
             function showPrevImg(srcNumber) {
                 let prevImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 hideIntroTitle();
                 
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
-                // if(srcNumber < slideImgSrc.length-1) {
-                //     nextBtn.classList.add(parseInt(srcNumber)+1);
-                // } else {
-                //     nextBtn.classList.add("0");
-                // }
 
                 prevBtn.classList.remove(prevBtn.classList.item(2));
                 nextBtn.classList.remove(nextBtn.classList.item(2));
@@ -634,7 +629,7 @@
                 // }, 800);
                 setTimeout(function() {
                     showIntroTitle(prevImg);
-                }, 800);
+                }, 600);
 
             }
             
