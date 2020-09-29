@@ -11,7 +11,7 @@
             </a>
         </div>
         <div class="box links home-btn">
-            <a href="/">
+            <a href="/admin">
                 평상도록
             </a>
         </div>
