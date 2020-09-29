@@ -35,24 +35,19 @@
     </div> -->
         <nav id="nav" class="nav fixed">
             <ul class="nav_group">
-                <li class="nav_item">
+                <!-- <li class="nav_item">
                     <mark>.flat tables</mark>
                     <a href="/list">
                         평상들
                     </a>
                 </li>
-                <!-- <li class="nav_item">
-                    <mark>.02</mark>
-                    <a href="/map">
-                        평상지도
-                    </a>
-                </li> -->
                 <li class="nav_item">
                     <mark>.about us</mark>
                     <a href="/about">
                         평상으로부터
                     </a>
-                </li>
+                </li> -->
+                @yield ('nav_item')
             </ul>
         </nav>
         <div id="overlay" class="overlay"></div>
