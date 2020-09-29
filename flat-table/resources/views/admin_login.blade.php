@@ -1,6 +1,10 @@
 @extends ('layout')
 
 
+@section ('head')
+<link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
+@endsection
+
 @section ('intro')
     <div class="title header-margin">
         <div class="box actions">
@@ -31,7 +35,7 @@
         <div class="main">
             <div class="container group">
                 <header class="container_header">
-                    <div class="spacer"></div>
+                    <div class="spacer login_spacer"></div>
                     <img src="/img/flat_table_icon.svg" alt="flat_table_icon">
                     <h1>로그인</h1>
                 </header>
