@@ -15,7 +15,7 @@
                 평상도록
             </a>
         </div>
-        <div class="box actions">
+        <div class="box actions login_link">
             <a class="menu login" href="/admin_login">
                 LogIn
             </a>
@@ -31,8 +31,9 @@
         <div class="main">
             <div class="container group">
                 <header class="container_header">
+                    <div class="spacer"></div>
                     <img src="/img/flat_table_icon.svg" alt="flat_table_icon">
-                    <h1>평상들</h1>
+                    <h1>로그인</h1>
                 </header>
                 
                 <div class="container_login">
