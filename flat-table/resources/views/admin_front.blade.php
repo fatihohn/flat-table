@@ -1,5 +1,8 @@
 @extends ('layout')
 
+@section ('head')
+<link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
+@endsection
 
 @section ('intro')
     <div class="title header-margin">
