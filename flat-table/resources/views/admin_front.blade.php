@@ -11,11 +11,11 @@
             </a>
         </div>
         <div class="box links home-btn">
-            <a href="/">
+            <a href="/admin">
                 평상도록
             </a>
         </div>
-        <div class="box actions">
+        <div class="box actions login_link">
             <a class="menu login" href="/admin_login">
                 LogIn
             </a>

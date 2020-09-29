@@ -221,6 +221,7 @@ ul {
     padding-top: 10px;
 }
 
+
 .header-margin {
     width: 90%;
     max-width: 1120px;
@@ -274,6 +275,18 @@ ul {
     transform: rotate(-45deg);
     top: -7px;
 }
+
+.title>.actions.login_link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 20px;
+}
+.title>.actions.login_link .login {
+    width: 100%;
+}
+
+
 
 .nav {
     padding: 8% 0;
