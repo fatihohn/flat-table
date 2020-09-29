@@ -1,33 +1,28 @@
 @extends ('layout')
 
-@section ('intro')
-    <div class="title header-margin">
-        <div class="box actions">
-            <a class="menu x">
-                <span class="line top"></span>
-                <span class="line middle"></span>
-                <span class="line bottom"></span>
-            </a>
-        </div>
-        <div class="box links home-btn">
-            <a href="/">
-                평상도록
-            </a>
-        </div>
-    </div>
-@endsection
 
 @section ('content')
 
-    <section class="article_main about_main">
-        <header class="container_header articles_header">
-            <img src="/img/flat_table_icon.svg" alt="flat_table_icon">
-            <h1>평상으로부터</h1>
-        </header>
+    <section class="article_main">
         <div class="main">
             <div class="article_container container">
-                
-                <div class="article_pics about_pics">
+                <header class="article_header">
+                    <h2>
+                        성보주택 평상
+                    </h2>
+                    <div class="article_info">
+                        <p class="category">
+                            <a href="#">
+                                주민모임형
+                            </a>
+                        </p>
+                        <p class="article_address">
+                            경기도 동두천시 상봉암동 153-15
+                        </p>
+                    </div>
+                    
+                </header>
+                <div class="article_pics">
                     <figure>
                         <img src="https://www.doongdoong.org/se2/upload/c37_202008090731431935073975%25EC%2588%2598%25EC%25A0%2595%25EB%2590%25A8_Copy%2Bof%2BHUN_DSC_1089.jpg" alt="">
                     </figure>
@@ -41,7 +36,7 @@
                         <img src="https://www.doongdoong.org/se2/upload/c37_202008090733501338812052%25EC%2588%2598%25EC%25A0%2595%25EB%2590%25A8_Copy%2Bof%2BHUN_DSC_1180.jpg" alt="">
                     </figure>
                 </div>
-                <div class="article_text about_text">
+                <div class="article_text">
                     <div class="article_comment">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus consequuntur quibusdam quos! Maxime quam dicta quas, fugit velit eaque rem consequuntur, labore distinctio amet odio asperiores veritatis odit nesciunt?
@@ -58,12 +53,25 @@
                     </div>
                     <footer class="article_footer">
                         <div class="article_auth">
-                            <p>
-                                변방평상
+                            <p class="photo">
+                                사진
                                 <span>
-                                    박상환, 온동훈, 이경렬    
+                                    박상환
                                 </span>
                             </p>
+                            <p class="words">
+                                글
+                                <span>
+                                    이경렬
+                                </span>
+                            </p>
+                        </div>
+                        <div class="article_share">
+                            <span>
+                                공유:
+                            </span>
+                            <a href="">Facebook</a>
+                            <a href="">Tweeter</a>
                         </div>
                     </footer>
                 </div>
@@ -79,7 +87,6 @@
             for(let m=0; m < articleImgs.length; m++) {
                 articleImgs[m].style.display = "block";
                 articleImgs[m].childNodes[1].style.width = "100%";
-
 
                 if(window.innerWidth > 1080) {
                     if(mobileImgs.childNodes.length > 0) {
@@ -157,14 +164,13 @@
 
         }
 
-
         let picControl = setInterval(organizePics, 200);
 
         organizePics();
         setTimeout(function() {
             organizePics();
         }, 300);
-            
+        
         window.addEventListener("resize", function() {
             setTimeout(function() {
                 if(window.innerWidth > 1080) {

@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="header">
-            <div class="title header-margin">
+            <!-- <div class="title header-margin">
                 <div class="box actions">
                     <a class="menu x">
                         <span class="line top"></span>
@@ -28,7 +28,7 @@
                         평상도록
                     </a>
                 </div>
-            </div>
+            </div> -->
             @yield ('intro')
         </div>
     <!-- <div class="flex-center position-ref full-height">
