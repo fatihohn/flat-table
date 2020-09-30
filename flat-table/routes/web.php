@@ -22,15 +22,22 @@ Route::get('/admin', function () {
 Route::get('/admin_login', function () {
     return view('admin_login');
 });
+
+//컨트롤러로 이전해야함
+Route::get('/admin_login_action', function () {
+    // return view('admin_login');
+});
+
+
 Route::get('/list', function () {
     return view('list');
 });
 Route::get('/article', function () {
     return view('article');
 });
-Route::get('/map', function () {
-    return view('map');
-});
+// Route::get('/map', function () {
+//     return view('map');
+// });
 Route::get('/about', function () {
     return view('about');
 });

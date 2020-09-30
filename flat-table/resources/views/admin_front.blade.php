@@ -1,6 +1,6 @@
-@extends ('layout')
+@extends ('admin_layout')
 
-@section ('head')
+<!-- @section ('head')
 <link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
 @endsection
 
@@ -38,7 +38,7 @@
             평상으로부터
         </a>
     </li>
-@endsection
+@endsection -->
 @section ('content')
 
     <aside class="intro">

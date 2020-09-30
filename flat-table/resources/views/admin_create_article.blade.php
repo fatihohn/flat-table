@@ -1,10 +1,10 @@
-@extends ('layout')
+@extends ('admin_layout')
 
-@section ('head')
+<!-- @section ('head')
 <link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
-@endsection
+@endsection -->
 
-@section ('intro')
+<!-- @section ('intro')
     <div class="title header-margin">
         <div class="box actions">
             <a class="menu x">
@@ -24,8 +24,8 @@
             </a>
         </div>
     </div>
-@endsection
-@section ('nav_item')
+@endsection -->
+<!-- @section ('nav_item')
     <li class="nav_item">
         <mark>.flat tables</mark>
         <a href="/list">
@@ -38,7 +38,7 @@
             평상으로부터
         </a>
     </li>
-@endsection
+@endsection -->
 @section ('content')
 
     <section class="article_main">

@@ -1,7 +1,7 @@
-@extends ('layout')
+@extends ('admin_layout')
 
 
-@section ('head')
+<!-- @section ('head')
 <link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
 @endsection
 
@@ -39,7 +39,7 @@
             평상으로부터
         </a>
     </li>
-@endsection
+@endsection -->
 @section ('content')
     <section class="front_main">
         <div class="main">
@@ -51,7 +51,7 @@
                 </header>
                 
                 <div class="container_login">
-                    <form class='login_form' method='post' action='admin_login_action.php'>
+                    <form class='login_form' method='post' action='/admin_login_action'>
                         <p>ID: <input class="login_input" name="username" type="text" required></p>
                         <p>PW: <input class="login_input" name="password" type="password" required></p>
                         <button class="login_btn" type="submit" value="로그인">
