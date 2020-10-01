@@ -1,9 +1,8 @@
-@extends ('layout')
+@extends ('admin_layout')
 
-@section ('head')
+<!-- @section ('head')
 <link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
 @endsection
-
 @section ('intro')
     <div class="title header-margin">
         <div class="box actions">
@@ -38,7 +37,7 @@
             평상으로부터
         </a>
     </li>
-@endsection
+@endsection -->
 @section ('content')
 
     <aside class="intro">
@@ -572,7 +571,6 @@
             });
         }
         scrollDown();
-
         function opacityByScroll() {
             let scrollPosition = window.pageYOffset;
             let pageHeight = window.innerHeight;
@@ -582,7 +580,6 @@
         window.onscroll = function() {
             opacityByScroll();
         };
-
         function setIntroImg() {
             let introSlide = document.querySelector(".intro_slide_img");
             let slideImgSrc = document.querySelectorAll(".slide_img_src");
@@ -590,14 +587,11 @@
             let nextBtn = document.querySelector(".next_btn");
             let introTitleHeader = document.querySelector(".intro_slide_title");
             let introTitle = document.querySelector(".slide_title a");
-
             prevBtn.classList.add(slideImgSrc.length-1);
             nextBtn.classList.add("1");
-
             for(let i = 0; i < slideImgSrc.length; i++) {
                 slideImgSrc[i].classList.add(i);
             }
-
             introSlide.style.backgroundImage = "url('"+slideImgSrc[0].src+"')";
             // setTimeout(() => {
             //     showIntroTitle(slideImgSrc[0]);
@@ -606,7 +600,6 @@
             setTimeout(function() {
                 showIntroTitle(slideImgSrc[0]);
             }, 600);
-
             prevBtn.onclick = function() {
                 showPrevImg(prevBtn.classList.item(2));
             }
@@ -618,7 +611,6 @@
                     showNextImg(nextBtn.classList.item(2));
                 }, 600);
             }, 20000);
-
             function showNextImg(srcNumber) {
                 let nextImg = document.querySelector(".slide_img_src."+CSS.escape(srcNumber));
                 hideIntroTitle();
@@ -626,7 +618,6 @@
                 introSlide.style.backgroundImage = "url('"+nextImg.src+"')";
                 prevBtn.classList.remove(prevBtn.classList.item(2));
                 nextBtn.classList.remove(nextBtn.classList.item(2));
-
                 if(srcNumber > 0 && srcNumber < slideImgSrc.length -1) {
                     prevBtn.classList.add(parseInt(srcNumber)-1);
                     nextBtn.classList.add(parseInt(srcNumber)+1);
@@ -649,7 +640,6 @@
                 hideIntroTitle();
                 
                 introSlide.style.backgroundImage = "url('"+prevImg.src+"')";
-
                 prevBtn.classList.remove(prevBtn.classList.item(2));
                 nextBtn.classList.remove(nextBtn.classList.item(2));
                 if(srcNumber > 0 && srcNumber < slideImgSrc.length -1) {
@@ -668,10 +658,8 @@
                 setTimeout(function() {
                     showIntroTitle(prevImg);
                 }, 600);
-
             }
             
-
             function showIntroTitle(imgSrc) {
                 introTitleHeader.classList.add("active");
                 introTitle.innerHTML = imgSrc.title;
@@ -679,14 +667,8 @@
             function hideIntroTitle() {
                 introTitleHeader.classList.remove("active");
             }
-
-
         }
         setIntroImg();
-
         
-
-
     </script>
 @endsection
-

@@ -497,4 +497,3 @@
         </div>
     </section>
 @endsection
-

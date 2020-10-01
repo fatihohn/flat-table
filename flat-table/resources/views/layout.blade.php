@@ -83,7 +83,6 @@
                 let menuBtn = document.querySelector(".menu");
                 let navigation = document.getElementById("nav");
                 let overlay = document.getElementById("overlay");
-
                 function showNav() {
                     navigation.classList.add("active");
                     overlay.classList.add("active");
@@ -103,9 +102,7 @@
                 });
             }
             manageNav();
-
             function showReadArticle() {
-
                 let articles = document.querySelectorAll(".article");
                 for(let j=0; j < articles.length; j++) {
                     articles[j].onmouseover = function() {

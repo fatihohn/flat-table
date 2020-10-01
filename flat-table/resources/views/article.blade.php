@@ -116,7 +116,6 @@
             for(let m=0; m < articleImgs.length; m++) {
                 articleImgs[m].style.display = "block";
                 articleImgs[m].childNodes[1].style.width = "100%";
-
                 if(window.innerWidth > 1080) {
                     if(mobileImgs.childNodes.length > 0) {
                         for(let n=0; n < mobileImgs.childNodes.length; n++) {
@@ -141,7 +140,6 @@
                 } else if(window.innerWidth <= 1080 && window.innerWidth >= 720) {
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
-
                         if(articleImgs[m].childNodes[1].width >= articleImgs[m].childNodes[1].height) {
                             document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "96.5%";
                             document.querySelectorAll(".mobile_img")[m-1].style.width = "96.5%";
@@ -163,7 +161,6 @@
                 } else if(window.innerWidth < 720) {
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
-
                         document.querySelectorAll(".mobile_img")[m-1].style.maxWidth = "100% !important";
                         document.querySelectorAll(".mobile_img")[m-1].style.height = "auto";
                         document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.width = "100% !important";
@@ -175,7 +172,6 @@
                 }
                 
             }
-
             function replaceImg(imgSrc) {
                 let imgUrl = imgSrc.childNodes[1].src;
                 let mobileImgWrap = document.createElement("figure");
@@ -188,13 +184,8 @@
                 mobileImg.style.width = "100%";
                 mobileImgWrap.appendChild(mobileImg);
             }
-
-
-
         }
-
         let picControl = setInterval(organizePics, 200);
-
         organizePics();
         setTimeout(function() {
             organizePics();
@@ -212,8 +203,6 @@
                 }
             }, 300);
         });
-
     </script>
 
 @endsection
-
