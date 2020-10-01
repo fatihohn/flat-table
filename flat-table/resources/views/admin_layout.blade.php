@@ -29,6 +29,11 @@
                         평상도록
                     </a>
                 </div>
+                <div class="box actions login_link">
+                    <a class="menu login" href="/admin_login">
+                        LogIn
+                    </a>
+                </div>
             </div>
             @yield ('intro')
         </div>
