@@ -15,8 +15,8 @@
             </a>
         </div>
     </div>
-@endsection
-@section ('nav_item')
+@endsection -->
+<!-- @section ('nav_item')
     <li class="nav_item">
         <mark>.flat tables</mark>
         <a href="/list">
