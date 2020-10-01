@@ -1,6 +1,6 @@
 @extends ('layout')
 
-@section ('intro')
+<!-- @section ('intro')
     <div class="title header-margin">
         <div class="box actions">
             <a class="menu x">
@@ -29,7 +29,7 @@
             평상으로부터
         </a>
     </li>
-@endsection
+@endsection -->
 @section ('content')
 
     <section class="article_main">

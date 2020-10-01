@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>평상도록</title>
+        <title>평상도록|관리자</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/layout.css?after" type="text/css" media="all" />
+        <link rel="stylesheet" href="/css/admin.css?after" type="text/css" media="all" />
         @yield ('head')
     </head>
     <body>
@@ -24,7 +25,7 @@
                     </a>
                 </div>
                 <div class="box links home-btn">
-                    <a href="/">
+                    <a href="/admin">
                         평상도록
                     </a>
                 </div>
@@ -37,13 +38,13 @@
             <ul class="nav_group">
                 <li class="nav_item">
                     <mark>.flat tables</mark>
-                    <a href="/list">
+                    <a href="/admin_list">
                         평상들
                     </a>
                 </li>
                 <li class="nav_item">
                     <mark>.about us</mark>
-                    <a href="/about">
+                    <a href="/admin_about">
                         평상으로부터
                     </a>
                 </li>
