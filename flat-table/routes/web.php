@@ -28,9 +28,9 @@ Route::get('/list', function () {
 Route::get('/article', function () {
     return view('article');
 });
-Route::get('/map', function () {
-    return view('map');
-});
+// Route::get('/map', function () {
+//     return view('map');
+// });
 Route::get('/about', function () {
     return view('about');
 });
