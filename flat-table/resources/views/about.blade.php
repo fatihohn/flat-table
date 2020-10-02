@@ -9,7 +9,7 @@
         </header>
         <div class="main">
             <div class="article_container container">
-                
+
                 <div class="article_pics about_pics">
                     <figure>
                         <img src="https://www.doongdoong.org/se2/upload/c37_202008090731431935073975%25EC%2588%2598%25EC%25A0%2595%25EB%2590%25A8_Copy%2Bof%2BHUN_DSC_1089.jpg" alt="">
@@ -27,7 +27,7 @@
                 <div class="article_text about_text">
                     <div class="article_comment">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus consequuntur quibusdam quos! Maxime quam dicta quas, fugit velit eaque rem consequuntur, labore distinctio amet odio asperiores veritatis odit nesciunt?
+                            Lorem ipsum doolor sit amet consectetur adipisicing elit. Quo temporibus consequuntur quibusdam quos! Maxime quam dicta quas, fugit velit eaque rem consequuntur, labore distinctio amet odio asperiores veritatis odit nesciunt?
                         </p>
                     </div>
                     <div class="article_text_spacer"></div>
@@ -44,7 +44,7 @@
                             <p>
                                 변방평상
                                 <span>
-                                    박상환, 온동훈, 이경렬    
+                                    박상환, 온동훈, 이경렬
                                 </span>
                             </p>
                         </div>
@@ -68,7 +68,7 @@
                             mobileImgs.childNodes[n].remove();
                         }
                     }
-                    
+
                     if(articleImgs[m].childNodes[1].width > articleImgs[m].childNodes[1].height) {
                         articleImgs[m].style.maxWidth = "96.5%";
                         articleImgs[m].style.height = "auto";
@@ -103,7 +103,7 @@
                             document.querySelectorAll(".mobile_img")[m-1].style.display = "inline-flex";
                         }
                     }
-                    
+
                 } else if(window.innerWidth < 720) {
                     if(m > 0 && document.querySelectorAll(".article_pics_mobile figure").length < document.querySelectorAll(".article_pics figure").length - 1) {
                         replaceImg(articleImgs[m]);
@@ -113,10 +113,10 @@
                         document.querySelectorAll(".mobile_img")[m-1].childNodes[0].style.height = "auto";
                         document.querySelectorAll(".mobile_img")[m-1].style.margin = "0 0 20px 0 !important";
                         document.querySelectorAll(".mobile_img")[m-1].style.display = "block";
-                        
+
                     }
                 }
-                
+
             }
             function replaceImg(imgSrc) {
                 let imgUrl = imgSrc.childNodes[1].src;
@@ -136,7 +136,7 @@
         setTimeout(function() {
             organizePics();
         }, 300);
-            
+
         window.addEventListener("resize", function() {
             setTimeout(function() {
                 if(window.innerWidth > 1080) {
