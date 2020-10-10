@@ -6,20 +6,25 @@
         <div class="main">
             <div class="article_container container">
                 <header class="article_header">
-                    <h2>
-                        성보주택 평상
-                    </h2>
-                    <div class="article_info">
-                        <p class="category">
-                            <a href="#">
-                                주민모임형
-                            </a>
-                        </p>
-                        <p class="article_address">
-                            경기도 동두천시 상봉암동 153-15
-                        </p>
-                    </div>
-                    
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <!-- <h2>
+                            성보주택 평상
+                        </h2> -->
+                        <input type="text" name="title" placeholder="제목" required/>
+                        <div class="article_info">
+                            <p class="category">
+                                <!-- <a href="#">
+                                    주민모임형
+                                </a> -->
+                                <input type="text" id="hashtags" autocomplete="off">
+                                <div class="tag-container"></div>
+                                <input id="category_container" type="text" name="category" value="" />
+                            </p>
+                            <p class="article_address">
+                                경기도 동두천시 상봉암동 153-15
+                            </p>
+                        </div>
+                    </form>
                 </header>
                 <div class="article_pics">
                     <figure>
@@ -65,19 +70,48 @@
                                 </span>
                             </p>
                         </div>
-                        <div class="article_share">
+                        <!-- <div class="article_share">
                             <span>
                                 공유:
                             </span>
                             <a href="">Facebook</a>
                             <a href="">Tweeter</a>
-                        </div>
+                        </div> -->
                     </footer>
                 </div>
                 <div class="article_pics_mobile"></div>
             </div>
         </div>
     </section>
+
+
+    <script>
+        let input, category_container, hashtagArray, container, t;
+
+        input = document.querySelector('#hashtags');
+        category_container = document.querySelector('#category_container');
+        container = document.querySelector('.tag-container');
+        hashtagArray = [];
+
+        input.addEventListener('keyup', () => {
+            if (event.which == 13 && input.value.length > 0) {
+                var text = document.createTextNode(input.value);
+                var p = document.createElement('p');
+                container.appendChild(p);
+                p.appendChild(text);
+                p.classList.add('tag');
+                input.value = '';
+                
+                let deleteTags = document.querySelectorAll('.tag');
+                
+                for(let i = 0; i < deleteTags.length; i++) {
+                    deleteTags[i].addEventListener('click', () => {
+                    container.removeChild(deleteTags[i]);
+                    });
+                }
+            }
+        });
+    </script>
 
     <script>
         function organizePics() {
