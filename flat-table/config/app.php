@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Spatie\Tags\TagsServiceProvider::class,
         /*
          * Application Service Providers...
          */
