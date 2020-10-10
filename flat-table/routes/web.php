@@ -38,6 +38,15 @@ Route::get('/test', function () {
     return view('welcome');
 });
 
+
+Route::post('/admin_login', function () {
+    return view('admin_login');
+});
+
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

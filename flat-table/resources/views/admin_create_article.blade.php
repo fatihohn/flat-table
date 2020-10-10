@@ -6,14 +6,16 @@
         <div class="main">
             <div class="article_container container">
                 <header class="article_header">
-                    <form action="new_article_action.php" method="post" enctype="multipart/form-data">
+                    <form action="/new_article" method="post" enctype="multipart/form-data">
+                        @method('PUT')
+                        @csrf
                         <!-- <h2>
                             성보주택 평상
                         </h2> -->
                         <input type="text" name="title" placeholder="제목" required/>
                         <div class="article_info">
                             <p class="article_address">
-                                경기도 동두천시 상봉암동 153-15
+                                {{-- 경기도 동두천시 상봉암동 153-15 --}}
                                 <input type="text" name="address" placeholder="주소" required />
                             </p>
                             <p class="category">

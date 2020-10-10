@@ -13,6 +13,7 @@
                 
                 <div class="container_login">
                     <form class='login_form' method='post' action='/admin_login_action'>
+                        @csrf
                         <p>ID: <input class="login_input" name="username" type="text" required></p>
                         <p>PW: <input class="login_input" name="password" type="password" required></p>
                         <button class="login_btn" type="submit" value="로그인">
