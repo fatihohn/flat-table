@@ -6,12 +6,16 @@
         <div class="main">
             <div class="article_container container">
                 <header class="article_header">
-                    <form action="" method="post" enctype="multipart/form-data">
+                    <form action="new_article_action.php" method="post" enctype="multipart/form-data">
                         <!-- <h2>
                             성보주택 평상
                         </h2> -->
                         <input type="text" name="title" placeholder="제목" required/>
                         <div class="article_info">
+                            <p class="article_address">
+                                경기도 동두천시 상봉암동 153-15
+                                <input type="text" name="address" placeholder="주소" required />
+                            </p>
                             <p class="category">
                                 <!-- <a href="#">
                                     주민모임형
@@ -20,13 +24,10 @@
                                 <div class="tag-container"></div>
                                 <input id="category_container" type="text" name="category" value="" />
                             </p>
-                            <p class="article_address">
-                                경기도 동두천시 상봉암동 153-15
-                            </p>
                         </div>
                     </form>
                 </header>
-                <div class="article_pics">
+                <!-- <div class="article_pics">
                     <figure>
                         <img src="https://www.doongdoong.org/se2/upload/c37_202008090731431935073975%25EC%2588%2598%25EC%25A0%2595%25EB%2590%25A8_Copy%2Bof%2BHUN_DSC_1089.jpg" alt="">
                     </figure>
@@ -39,7 +40,7 @@
                     <figure>
                         <img src="https://www.doongdoong.org/se2/upload/c37_202008090733501338812052%25EC%2588%2598%25EC%25A0%2595%25EB%2590%25A8_Copy%2Bof%2BHUN_DSC_1180.jpg" alt="">
                     </figure>
-                </div>
+                </div> -->
                 <div class="article_text">
                     <div class="article_comment">
                         <p>

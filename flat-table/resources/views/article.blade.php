@@ -10,13 +10,13 @@
                         성보주택 평상
                     </h2>
                     <div class="article_info">
+                        <p class="article_address">
+                            경기도 동두천시 상봉암동 153-15
+                        </p>
                         <p class="category">
                             <a href="#">
                                 주민모임형
                             </a>
-                        </p>
-                        <p class="article_address">
-                            경기도 동두천시 상봉암동 153-15
                         </p>
                     </div>
                     
