@@ -38,10 +38,17 @@ Route::get('/test', function () {
     return view('welcome');
 });
 
+Route::get('/new_article', function () {
+    return view('admin_create_article');
+});
 
 Route::post('/admin_login', function () {
     return view('admin_login');
 });
+Route::post('/new_article', [
+    'uses' => 'NewArticleController@NewArticle',
+    'as' => 'article.store'
+]);
 
 
 
